@@ -1,0 +1,970 @@
+
+body{
+    background: url("../img/main-background.jpg") no-repeat fixed 100% 100% / 100% auto rgba(0, 0, 0, 0); 
+    height: 1000px;
+    width: 100%;
+    font-family: 'open_sansregular';
+    top: 0px;
+    
+    
+}
+
+#header{
+    width: 100%;
+    background: #000;
+    height: 150px;
+    position: relative;
+}
+
+.venison-logo{
+    width: 100%;
+    position: absolute;
+     padding: 15px 0 0;
+}
+
+
+.venison-meat{
+    width: 100%;
+    text-align: right;
+    padding: 15px 0 0;
+}
+
+#body-content {
+    width:100%;
+
+}
+
+.vension-nav {
+    background: none repeat scroll 0 0 #cf8a1f;
+    margin: 43px 0 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.vension-nav li {
+    display: inline-block;
+    padding: 0px 2px;
+}
+
+body .vension-nav a {
+    color: #fff !important;
+    font-size: 15px;
+    padding: 20px 26px 19px;
+}
+
+body .vension-nav a:hover{
+    color: #fff;
+    border-radius: 0px;
+    background: #000;
+    text-decoration: none;    
+}
+
+.vension-nav .selected{
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    
+}
+
+.main-menu{
+    padding: 0px;
+}
+
+.carousel {
+    margin: 0 auto;
+    padding-top: 0;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-control {
+    bottom: 53px;
+    color: #ffffff;
+    font-size: 37px;
+    left: 0;
+    margin: 0;
+    opacity: 0.5;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    top: 0;
+    width: 8%;
+}
+
+.carousel-indicators {
+    left: 49%;
+    list-style: outside none none;
+    margin-left: -30%;
+    padding-left: 0;
+    position: absolute;
+    text-align: center;
+    top: 92%;
+    width: 60%;
+    z-index: 15;
+}
+
+.carousel-inner .container{
+    padding: 0px;
+}
+
+.carousel-indicators li{
+    background-color: #fff;
+}
+
+.carousel-indicators .active{
+    background-color: #4d0200;
+}
+
+
+/*====bootom-services start here===*/
+
+.healthy-services {
+    background: none repeat scroll 0 0 #b5a58e;   
+    padding: 25px;
+    width: 100%;
+    display: inline-block;
+}
+
+.heading-alternative{
+    width: 100%; 
+}
+
+
+.heading-alternative h1 {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+}
+
+.heading-alternative p {
+    line-height: 29px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.service-circle{
+    list-style-type: none;    
+}
+
+.service-circle > li {
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 96px;
+    display: inline-block;
+    height: 124px;
+    margin: 15px 9px 15px 4px;
+    padding: 2px 2px 9px;
+    float: left;
+    text-align: center;
+    width: 124px;
+}
+
+.service-circle a {
+    border: 2px solid #eba03f;
+    border-radius: 200px;
+    display: block;
+    font-size: 14px;
+    padding: 38px 0;
+    color: #fff !important;
+    background: #383838;
+}
+
+
+.service-circle a:hover{
+    
+    background: #eba03f;
+    text-decoration: none;
+}
+
+
+.service-circle a:focus{
+    
+    text-decoration: none;
+    
+}
+
+.order-button {
+    margin-bottom: 22px;
+    margin-top: 26px;
+    text-align: center;
+    width: 100%;
+}
+
+.order-now {
+    background: none repeat scroll 0 0 #6e210a;
+    border: medium none;
+    color: #fff;
+    font-size: 17px;
+    padding: 11px 35px;
+    text-align: center;
+    border: 2px solid #6e210a;
+}
+
+.order-now:hover{
+    
+    border: 2px solid #6e210a;
+    background: #fff;
+    color: #6e210a;
+    
+}
+
+.footer{
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.telephone-number {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.telephone-number span{
+    
+    color: #eba713;
+    
+}
+
+.telephone-number a{
+    color: #eba713;
+}
+
+.social-icon {
+    margin-top: 5px;
+    text-align: right;
+    width: 100%;
+}
+
+.social-icon > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.btn-top {
+    background: none repeat scroll 0 0 #cd8a2a;
+    color: #fff;
+    padding: 5px 10px 4px;
+}
+.main-back {
+    margin: 40px 0 0;
+    width: 100%;
+}
+
+.tooltip-inner{
+  background: #391a0e;
+  font-size: 15px;
+  border-bottom: none;
+  border: 1px solid #fff;
+}
+
+.pdoctive .col-md-4.main-mist {
+    margin: 0 6px;
+    padding: 0;
+    width: 31%;
+}
+
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #391a0e;
+    border-width: 5px 5px 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.pro_img {
+    text-align: right;
+}
+
+.empt {
+    margin: 6px 0 20px -28px !important;
+}
+
+.springbok {
+    margin: 0 0 0 -14px;
+    padding: 0;
+}
+
+.springbok > li {
+    color: #fff;
+    padding: 2px 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*=============Responsive css start here=============*/
+
+
+
+@media (min-width:992px) and (max-width:1199px)
+{
+    body .vension-nav a {
+    color: #fff !important;
+    font-size: 15px;
+    padding: 20px 12px 19px;
+}
+    
+  .service-circle {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.service-circle > li {
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 107px;
+    display: inline-block;
+    height: 114px;
+    margin: 15px 3px 15px 0;
+    padding: 2px 2px 9px;
+    text-align: center;
+    width: 114px;
+}
+
+.service-circle a {
+    padding: 33px 0;
+}
+  
+  .social-icon li {
+    display: inline-block;
+    padding: 0 2px;
+}
+
+.telephone-number{
+    font-size: 12px;
+}
+  
+  
+  
+  
+    
+    
+}
+
+
+@media (min-width:768px) and (max-width:991px)
+{
+    body .vension-nav a {
+    color: #fff !important;
+    font-size: 13px;
+    padding: 21px 10px 19px;
+}
+
+.vension-nav li {
+    display: inline-block;
+    padding: 19px 0;
+}
+
+.vension-nav {
+    background: none repeat scroll 0 0 #cf8a1f;
+    list-style-type: none;
+    margin: 45px 0 0;
+    padding: 0;
+    width: 100%;
+}
+  .social-icon {
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.telephone-number{
+    text-align: center;
+    width: 100%;
+}
+    
+    
+    
+}
+
+
+
+
+@media (max-width:767px)
+{
+    .service-circle > li {
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 96px;
+    display: inline-block;
+    height: 114px;
+    margin: 15px 2px 14px;
+    padding: 2px 2px 9px;
+    text-align: center;
+    width: 114px;
+}
+
+.service-circle a {
+    padding: 33px 0;
+}
+    
+ .service-circle{
+    padding: 0px;}   
+    
+   .telephone-number {
+    text-align: center;
+    width: 100%;
+} 
+    
+    
+    
+    
+    
+}
+
+
+@media (max-width:480px)
+{
+    
+    
+}
+.items-leading div {
+    display: inline-block;
+}
+
+.healthy-services .blog h1,
+.blog_module .page-header,
+.healthy-services .item-page h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: left;
+    text-transform: capitalize;
+    text-shadow: none;
+}
+.well.blog_module {
+    padding: 0;
+}
+.blog .items-leading.clearfix,
+.healthy-services .item-page {    
+    padding:0px 15px;
+}
+.category-module.blog_module {
+    border-left: 1px solid #fff;
+}
+.pull-left.item-image {
+    width: 33.3333%;
+}
+.healthy-services .blog h2 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+main.span9 {
+    width: 70%;
+}
+.healthy-services .span3 {
+    width: 30%;
+}
+.category-module.blog_module > li {
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    list-style: none outside none;
+    padding: 15px 0;
+}
+.category-module.blog_module {
+    padding-left: 30px;
+}
+.page-header h2 a {
+    color: #000;
+}
+.page-header {
+    padding: 0;
+}
+.healthy-services p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: left;
+    padding: 0px;
+}
+
+.healthy-services .read_more,
+.blog_module .mod-articles-category-title,
+.healthy-services h4  {
+    color: #000;
+    font-weight: bold;
+}
+.read_more {
+    float: right;
+}
+.blog_module .mod-articles-category-title {
+    color: #000;
+    font-size: 18px;
+}
+.blog_module .mod-articles-category-introtext {
+    margin: 0;
+}
+.pagination .pagination-list .pagenav{
+    color: #999;
+}
+.service-circle {
+    margin: 0 auto;
+    padding: 0 34px;
+    text-align: center;
+    width: auto;
+}
+.tips_thumb .col-sm-4 {
+    margin-right: 4%;
+    width: 28%;
+}
+.text-left {
+    text-align: left;
+}
+.tips_thumb {
+    margin-top: 30px;
+    text-align: center;
+}
+.customWINNING.RECIPES {
+    padding-top: 40px;
+}
+.footer-logo img {
+    max-width: 70px;
+}
+/*--about us--*/
+.gallery-link {
+    list-style: none outside none;
+    padding: 0;
+}
+.gallery-link li {
+    float: left;
+    margin-bottom: 1.5%;
+    margin-right: 1.5%;
+    width: 31.5%;
+}
+.gallery-link li a {
+    background: none repeat scroll 0 0 #fff;
+    display: inline-block;
+    max-width: 100%;
+    padding: 5px;
+}
+.alias-about-us main {
+    width: 58.3333%;
+}
+.alias-about-us .span3 {
+    width: 41.6667%;
+}
+.about_img_theme img {
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+.content img {
+    float: left;
+    max-width: 200px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.content .row img {
+    float: left;
+    max-width: 100%;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+.border-white {
+    border-right: 1px solid #fff;
+}
+.well.about_img_theme {
+    float: left;
+    margin-left: 10px;
+    padding: 0 15px;
+    width: 100%;
+}
+.custom.about_img_theme > h2 {
+    font-size: 28px;
+    text-align: center;
+}
+.custom.about_img_theme > h2 strong {
+    color: #fff;
+    display: inline-block;
+    margin: 5px 0;
+    width: 100%;
+}
+.about_img_theme img {
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.about-us-theme p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: left;
+}
+body {
+    color: #000;
+}
+.about_img_theme .page-header {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.alias-about-us .page-header > h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.page-header h2{
+    text-align: left;
+    color: #000;
+}
+.alias-about-us .healthy-services{
+    padding: 40px;
+}
+.alias-about-us .item-page.content {
+    padding-left: 0;
+}
+.pro_img.col-md-6 > img {
+    border: 5px solid #fff;
+    display: inline-block;
+    height: 150px;
+    margin: 5px;
+    width: 150px;
+}
+.alias-overview .col-md-6 > ul {
+    float: left;
+    width: 50%;
+}
+.navbar-collapse.collapse.main-menu {
+    z-index: 1;
+}
+.nav-child.unstyled.small {
+    background: none repeat scroll 0 0 #000;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.nav-child.unstyled.small:before, .nav-child.unstyled.small:after {
+    content: none;
+}
+.navigation .nav ul li {
+    background: none repeat scroll 0 0 #000;
+    margin-bottom: 2px;
+    padding: 5px 0;
+    width: 100%;
+}
+.nav-child li a {
+    padding: 7px 5px !important;
+}
+.nav-child.unstyled.small {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    padding-left: 2px;
+    text-align: center;
+    top: 40px;
+    width: 97.5%;
+}
+.navigation .nav-child li > a:hover, .navigation .nav-child li > a:focus, .navigation .nav-child:hover > a{
+    background: transparent;
+    background-image: none;
+    color: #CF8A1F !important; 
+}
+
+/*--------------*/
+
+
+/*====About us css start here=====*/
+
+
+.cut-heading{
+    
+    width: 100%;
+}
+
+.cut-heading h2{
+    
+    font-size: 30px;
+    color: #231f20;
+    text-align: left;
+}
+
+
+.cut-heading > ul {
+    list-style-type: none;
+    margin: 10px 6px 13px -15px;
+    padding: 9px 0 0;
+}
+
+.cut-heading li {
+    border-right: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    height: 18px;
+    line-height: 16px;
+    padding: 0 16px;
+}
+
+.cut-heading li:last-child{
+    border-right: none;
+}
+
+.cut-heading li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+.sping-bok{
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.main-spring{
+    
+    width: 100%;
+    background: url(../img/springbak-background.jpg) repeat;
+    box-shadow: 5px 0 8px #646464;
+    height: 92px;
+    position: relative;
+    left: -55px;
+}
+
+.main-spring h3 {
+    color: #383838;
+    font-size: 27px;
+    font-weight: bold;
+    padding-right: 33px;
+    padding-top: 31px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.spring-paraph{
+    width: 100%;   
+}
+
+
+.spring-paraph p {
+    color: #fff;
+    font-size: 15px;
+    left: -52px;
+    line-height: 20px;
+    padding-top: 14px;
+    position: relative;
+    text-align: left;
+}
+
+
+.table-part{
+    
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.price-list {
+    width: 100%;
+}
+
+
+.price-list th {
+    background: none repeat scroll 0 0 #383838;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 7px 0 8px 16px;
+}
+
+.price-list td {
+    border: 1px solid #fff;
+    color: #6e2131;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 3px 0 11px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rate-p {
+    background: none repeat scroll 0 0 #383838;
+    color: #fff;
+    font-size: 13px;
+    padding: 6px 18px;
+    text-transform: none;
+}
+
+.spaceline {
+    padding: 25px 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============Responsive css start here=============*/
+
+
+
+@media (min-width:992px) and (max-width:1199px)
+{
+    .vension-nav a {
+    color: #fff !important;
+    font-size: 15px;
+    padding: 20px 12px 19px;
+}
+    
+  .service-circle {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.service-circle > li {
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 107px;
+    display: inline-block;
+    height: 114px;
+    margin: 15px 3px 15px 0;
+    padding: 2px 2px 9px;
+    text-align: center;
+    width: 114px;
+}
+
+.service-circle a {
+    padding: 33px 0;
+}
+  
+  .social-icon li {
+    display: inline-block;
+    padding: 0 2px;
+}
+
+.telephone-number{
+    font-size: 12px;
+}
+  
+  
+  
+  
+    
+    
+}
+
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .vension-nav a {
+    color: #fff !important;
+    font-size: 13px;
+    padding: 21px 10px 19px;
+}
+
+.vension-nav li {
+    display: inline-block;
+    padding: 19px 0;
+}
+
+.vension-nav {
+    background: none repeat scroll 0 0 #cf8a1f;
+    list-style-type: none;
+    margin: 45px 0 0;
+    padding: 0;
+    width: 100%;
+}
+  .social-icon {
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.telephone-number{
+    text-align: center;
+    width: 100%;
+}
+    
+    
+    
+}
+
+
+
+
+@media (max-width:767px)
+{
+    .service-circle > li {
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 96px;
+    display: inline-block;
+    height: 114px;
+    margin: 15px 2px 14px;
+    padding: 2px 2px 9px;
+    text-align: center;
+    width: 114px;
+}
+
+.service-circle a {
+    padding: 33px 0;
+}
+    
+ .service-circle{
+    padding: 0px;}   
+    
+   .telephone-number {
+    text-align: center;
+    width: 100%;
+} 
+    
+    
+    
+    
+    
+}
+
+
+@media (max-width:480px)
+{
+    
+    
+}
+.map {
+    width: inherit !important;
+}
+.item-page > div {
+    color: #fff;
+}

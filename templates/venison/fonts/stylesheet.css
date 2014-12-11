@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('OpenSans-Light-webfont.eot');
+    src: url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Light-webfont.woff') format('woff'),
+         url('OpenSans-Light-webfont.ttf') format('truetype'),
+         url('OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'times_new_romanregular';
+    src: url('times_0-webfont.eot');
+    src: url('times_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('times_0-webfont.woff2') format('woff2'),
+         url('times_0-webfont.woff') format('woff'),
+         url('times_0-webfont.ttf') format('truetype'),
+         url('times_0-webfont.svg#times_new_romanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'chronicdealregular';
+    src: url('chronicdeal-webfont.eot');
+    src: url('chronicdeal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('chronicdeal-webfont.woff2') format('woff2'),
+         url('chronicdeal-webfont.woff') format('woff'),
+         url('chronicdeal-webfont.ttf') format('truetype'),
+         url('chronicdeal-webfont.svg#chronicdealregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

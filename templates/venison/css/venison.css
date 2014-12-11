@@ -1,0 +1,2744 @@
+
+body{
+    background: url("../img/main-background.jpg") no-repeat fixed 100% 100% / 100% auto rgba(0, 0, 0, 0); 
+    width: 100%;
+    font-family: 'open_sansregular';
+    top: 0px;
+    
+    
+}
+
+
+body .nav-pills > li.active > a, body .nav-pills > li.active > a:hover, body .nav-pills > li.active > a:focus{
+    background: none !important;
+    color: #000 !important;
+}
+.back-to-category a.product-details {
+    background: none repeat scroll 0 0 #333333;
+    border: medium none;
+    border-radius: 0;
+    padding: 5px 14px;
+}
+#header{
+    width: 100%;
+    background: #000;
+    height: 180px;
+    position: relative;  margin-bottom: 16px;
+}
+
+.venison-logo{
+    width: 100%;
+    position: absolute;
+     padding: 15px 0 0;
+}
+
+
+.venison-meat {
+    padding: 25px 0 0;
+    text-align: right;
+    width: 100%;
+}
+
+#body-content {
+    width:100%;
+
+}
+
+.vension-nav {
+    background: none repeat scroll 0 0 #cf8a1f;
+    margin: 43px 0 0;
+    width: 100%;
+    list-style-type: none; 
+}
+
+.vension-nav li {
+    display: inline-block;
+    padding: 0px 2px;
+}
+
+.alias-news .pull-left.item-image {
+    /*margin-top: -5px !important;*/
+     margin-top: 0px !important;
+    width: 30.333%;
+}
+
+.alias-news .page-header h2 a {
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+.alias-news .healthy-services p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-top: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.alias-news .items-leading.clearfix {
+    border-right: 1px solid #fff;
+}
+
+body .vension-nav a {
+    color: #fff !important;
+    font-size: 16px;
+    padding: 20px 24px 19px;
+}
+
+body .vension-nav a:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.vension-nav .selected{
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    
+}
+
+.main-menu{
+    padding: 0px;
+}
+
+.alias-why-venison .page-header h2 {
+    color: #000;
+    margin: 28px 104px 0 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
+
+
+
+.carousel {
+    margin: 0 auto;
+    padding-top: 0;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-control {
+    bottom: 53px;
+    color: #ffffff;
+    font-size: 37px;
+    left: 0;
+    margin: 0;
+    opacity: 0.5;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    top: 0;
+    width: 8%;
+}
+
+.carousel-indicators {
+    left: 49%;
+    list-style: outside none none;
+    margin-left: -30%;
+    padding-left: 0;
+    position: absolute;
+    text-align: center;
+    top: 92%;
+    width: 60%;
+    z-index: 15;
+}
+
+.carousel-inner .container{
+    padding: 0px;
+}
+
+.carousel-indicators li{
+    background-color: #fff;
+}
+
+.carousel-indicators .active{
+    background-color: #4d0200;
+}
+
+
+/*====bootom-services start here===*/
+
+.healthy-services {
+    background: none repeat scroll 0 0 #b5a58e;
+    display: inline-block;
+    margin: -10px 0 0;
+    padding: 13px 40px;
+    width: 100%;
+}
+
+.heading-alternative{
+    width: 100%; 
+}
+
+.alias-home .vension-health {
+    color: #fff !important;
+    font-family: "times_new_romanregular";
+    font-size: 31px !important;
+    margin: 0 !important;
+    padding: 12px 0 8px;
+    text-align: center !important;
+    text-transform: none !important;
+    width: 100%;
+}
+
+.alias-home .vension-paraph {
+    color: #231f20;
+    font-weight: normal !important;
+    letter-spacing: 0.1px;
+    margin: 0 0 3px;
+    padding: 0;
+}
+
+.vension-paraph {
+    color: #231f21 !important;
+    font-family: "times_new_romanregular";
+    font-size: 18px !important;
+    line-height: 25px !important;
+    word-wrap: break-word;
+}
+
+.heading-alternative h1 {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+}
+
+.heading-alternative p {
+    line-height: 29px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.service-circle{
+    list-style-type: none;    
+}
+
+.service-circle > li {
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 96px;
+    display: inline-block;
+    float: left;
+    height: 110px;
+    margin: 15px 22px 15px 2px;
+    padding: 2px 2px 9px;
+    text-align: center;
+    width: 113px;
+}
+.service-circle > li:last-child{
+    margin-right: 0px;
+}
+
+.service-circle a {
+  background: none repeat scroll 0 0 #383838;
+    border: 2px solid #eba03f;
+    border-radius: 200px;
+    color: #ffffff !important;
+    display: block;
+    font-family: "chronicdealregular";
+    font-size: 16px;
+    font-weight: normal !important;
+    letter-spacing: 0.5px;
+    padding: 28px 0;
+}
+
+.service-circle a:hover{
+    
+    background: #eba03f;
+    text-decoration: none;
+}
+
+.alias-overview .page-header h2 {
+    color: #000;
+    margin: 25px 0 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.social-icon li a img {
+    width: 76%;
+}
+.alias-how-to-prepare .page-header h2 {
+    color: #000;
+    margin: 25px 0 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.service-circle a:focus{
+    
+    text-decoration: none;
+    
+}
+
+.order-button {
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 11px;
+    text-align: center;
+    width: 100%;
+}
+
+.healthy-services a {
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.mask_holder {
+    margin: 7px 0;
+}
+
+.opo h1 {
+    padding: 38px 0 0 15px;
+    font-family: 'times_new_romanregular';
+}
+
+.order-now {
+    background: none repeat scroll 0 0 #6e210a;
+    border: 2px solid #6e210a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding:11px 20px;
+    text-align: center;
+     font-family: 'open_sansregular';
+}
+
+.order-now:hover{
+    
+    border: 2px solid #6e210a;
+    background: #fff;
+    color: #6e210a;
+    
+}
+
+.footer {
+  
+    padding: 30px 0;
+    text-align: right;
+}
+
+.telephone-number {
+    color: #fff;
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    width: 100%;
+    font-family: 'open_sansregular';
+}
+.telephone-part{
+     display: inline-block;
+    width: auto;
+}
+.telephone-number span{
+    
+    color: #eba713;
+    
+}
+
+.telephone-number a {
+    color: #fff;
+}
+
+.social-icon {
+    margin-top: 0px;
+    text-align: right;
+    width: 100%;
+}
+
+.social-icon > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    padding: 0 2px;
+    margin:0px;
+    vertical-align:middle;
+}
+
+.social-part {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+    width: auto !important;
+}
+
+.col-md-7.telephone-part {
+    padding: 0 15px 0 0;
+    width: 63.333%;
+}
+
+.btn-top {
+    background: none repeat scroll 0 0 #cd8a2a;
+    color: #fff;
+    padding: 5px 10px 4px;
+}
+.main-back {
+    margin: 40px 0 0;
+    width: 100%;
+}
+
+.tooltip-inner{
+  background: #391a0e;
+  font-size: 15px;
+  border-bottom: none;
+  border: 1px solid #fff;
+}
+
+.pdoctive .col-md-4.main-mist {
+    margin: 0 6px;
+    padding: 0;
+    width: 31%;
+}
+
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #391a0e;
+    border-width: 5px 5px 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.pro_img {
+    text-align: right;
+}
+
+.empt {
+    margin: 6px 0 20px -28px !important;
+}
+
+.springbok {
+    margin: 0 0 0 -26px;
+    padding: 0;
+}
+
+.springbok > li {
+    background: url("../img/bullet.png") no-repeat scroll 5px 3px rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 3px 0;
+    text-indent: 27px;
+}
+
+
+/*====About us css start here=====*/
+
+
+.alias-why-venison .page-header a {
+    color: #000;
+    font-family: "times_new_romanregular";
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.alias-why-venison .page-header a:hover{
+    color: #000;
+    text-decoration: none !important;
+}
+
+
+.alias-why-venison .page-header h2
+{
+    text-align: left !important;
+    padding: 10px 0px 0px;
+}
+
+.alias-why-venison p{
+    padding: 5px 0px 0px !important;
+}
+
+.alias-why-venison .item-page img {
+    padding: 20px 0 22px;
+}
+
+
+.alias-about-us p{
+    padding: 0px 0px 0px !important;
+}
+
+
+
+
+.alias-overview .page-header a {
+    color: #000;
+    font-family: "times_new_romanregular";
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.alias-overview .page-header a:hover{
+    color: #000;
+    text-decoration: underline !important;
+}
+
+
+.alias-overview .page-header h2
+{
+    text-align: left !important;
+    padding: 10px 0px 0px;
+}
+
+.alias-overview p{
+    padding: 5px 0px 0px !important;
+}
+
+
+
+
+
+
+.alias-how-to-prepare .page-header a {
+    color: #000;
+    font-family: "times_new_romanregular";
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 0px !important  ;
+}
+
+.alias-how-to-prepare .page-header a:hover{
+    color: #000;
+    text-decoration: underline !important;
+}
+
+
+.alias-how-to-prepare .page-header h2
+{
+    text-align: left !important;
+    padding: 10px 0px 0px;
+}
+
+.alias-how-to-prepare p{
+    padding: 5px 0px 0px !important;
+}
+
+
+.view-article .page-header h2 {
+    color: #000;
+    margin: 0 104px 0 0;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.view-article .healthy-services p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 7px 0 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+
+
+
+.cut-heading{
+    
+    width: 100%;
+}
+
+.cut-heading h2{
+    
+    font-size: 30px;
+    color: #231f20;
+    text-align: left;
+}
+
+
+.cut-heading > ul {
+    list-style-type: none;
+    margin: -20px 6px 10px -15px;
+    padding: 9px 0 0;
+}
+
+.browse-view .page-header h2 {
+    color: #000;
+    font-family: "times_new_romanregular";
+    padding: 20px 0 0 13px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.cut-heading li {
+    border-right: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    height: 18px;
+    line-height: 16px;
+    padding: 0 16px;
+}
+
+.cut-heading li:last-child{
+    border-right: none;
+}
+
+.cut-heading li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.pull-left.item-image > img {
+    padding: 0px 0 0;
+    width: 100%;
+}
+
+.tips_thumb .col-sm-4:last-child
+{
+    margin-right: 0px;
+}
+
+
+.blog_module .page-header {
+    padding: 44px 0 0 26px;
+    font-family: 'times_new_romanregular';
+    font-size: 40px !important;
+}
+
+
+.sping-bok{
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.main-spring{
+    
+    width: 100%;
+    background: url(../img/springbak-background.jpg) repeat;
+    box-shadow: 5px 0 8px #646464;
+    height: 92px;
+    position: relative;
+    left: -55px;
+}
+
+.main-spring h3 {
+    color: #383838;
+    font-size: 27px;
+    font-weight: bold;
+    padding-right: 33px;
+    padding-top: 31px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.spring-paraph{
+    width: 100%;   
+}
+
+
+.spring-paraph p {
+    left: -64px;
+    width: auto;
+    top: 2px;
+    margin-right: -64px;
+    padding: 16px 0 0 !important;
+    position: relative;
+}
+
+
+.table-part{
+    
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.price-list {
+    width:100%;
+}
+
+.price-list a
+{
+color: #6e2131;
+
+}
+
+
+.price-list th {
+    background: none repeat scroll 0 0 #383838;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 7px 0 8px 16px;
+}
+
+.price-list td {
+    border: 1px solid #fff;
+    color: #6e2131;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 3px 0 11px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rate-p {
+    background: none repeat scroll 0 0 #383838;
+    color: #fff;
+    font-size: 13px;
+    padding: 6px 18px;
+    text-transform: none;
+}
+
+.spaceline {
+    padding: 25px 0;
+    width: 100%;
+}
+
+
+.items-leading div {
+    display: inline-block;
+}
+
+.healthy-services .blog h1,
+.blog_module .page-header,
+.healthy-services .item-page h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: left;
+    text-transform: capitalize;
+    text-shadow: none;
+}
+.well.blog_module {
+    padding: 0;
+}
+.blog .items-leading.clearfix,
+.healthy-services .item-page {    
+    padding:0px 15px;
+}
+
+.pull-left.item-image {
+    width: 19.333%;
+}
+.healthy-services .blog h2 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+main.span9 {
+    width: 68%;
+}
+.healthy-services .span3 {
+    width: 32%;
+}
+.category-module.blog_module > li {
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    list-style: none outside none;
+    padding: 15px 0;
+}
+.category-module.blog_module {
+    padding-left: 30px;
+}
+.page-header h2 a {
+    color: #000;
+}
+.page-header {
+    padding: 0;
+}
+
+.healthy-services p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 14px 0 0;
+    text-align: left;
+}
+
+.healthy-services .read_more,
+.blog_module .mod-articles-category-title,
+.healthy-services h4  {
+    color: #000;
+    font-weight: bold;
+}
+.read_more {
+    float: none;
+    padding: 0 0 0 0px;
+}
+
+.blog_module .mod-articles-category-title {
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.alias-news .mod-articles-category-introtext {
+    padding: 10px 0 0 !important;
+}
+
+.blog_module .mod-articles-category-introtext {
+    margin: 0;
+}
+.pagination .pagination-list .pagenav{
+    color: #999;
+}
+.service-circle {
+    float: left;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+    width: auto;
+}
+
+.tips_thumb .col-sm-4 {
+    margin-right: 8%;
+    width: 28%;
+}
+
+.required
+{
+    color: #fff !important;
+}
+
+.well {
+    border-radius: 0;
+    margin: 0 auto 43px;
+    padding: 30px 0 20px 20px;
+    width: 100%;
+}
+
+
+.text-left {
+    text-align: left;
+}
+.tips_thumb {
+    margin-top: 30px;
+    text-align: center;
+}
+.customWINNING.RECIPES {
+    padding-top: 40px;
+}
+.footer-logo img {
+    max-width: 85px;
+}
+/*--about us--*/
+.gallery-link {
+    list-style: outside none none;
+    padding: 20px 0 0;
+}
+
+.well.about_img_theme
+{
+    margin: 0px;
+}
+
+.gallery-link li {
+    float: left;
+    margin-bottom: 1.5%;
+    margin-right: 1.5%;
+    width: 31.5%;
+}
+.gallery-link li a {
+    background: none repeat scroll 0 0 #fff;
+    display: inline-block;
+    max-width: 100%;
+    padding: 5px;
+}
+.alias-about-us main {
+    width: 58.3333%;
+}
+.alias-about-us .span3 {
+    width: 41.6667%;
+}
+.about_img_theme img {
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+.content img {
+    float: left;
+    max-width:50%;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.alias-about-us .about-venison {
+    padding: 10px 0 0 !important;
+}
+
+.content .row img {
+    float: left;
+    max-width: 100%;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+.border-white {
+    border-right: 1px solid #fff;
+}
+.well.about_img_theme {
+    float: left;
+    margin-left: 10px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.custom.about_img_theme > h2 {
+    color: #31171a;
+    font-size: 30px;
+    text-align: center;
+}
+
+.custom.about_img_theme > h2 strong {
+    color: #fff;
+    display: inline-block;
+    margin: 5px 0;
+    width: 100%;
+    text-align: right;
+}
+.about_img_theme img {
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+.about-us-theme p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: left;
+}
+body {
+    color: #000;
+}
+.about_img_theme .page-header {
+    font-size: 34px;
+    font-family: "times_new_romanregular";
+    margin-bottom: 20px;
+    margin-top: 0;    line-height: 33px;
+}
+.alias-about-us .page-header > h2 {
+    font-family: "times_new_romanregular";
+    font-size: 34px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    text-align: left;
+}
+.page-header h2 {
+    color: #000;
+    text-align: center;
+}
+
+.page-header h2 a {
+    color: #fff;
+    font-family: "times_new_romanregular";
+    font-size: 32px;
+    letter-spacing: 0.5px;
+}
+
+.page-header h2 a:hover{
+
+	color: #fff;
+	text-decoration: none !important;
+}
+
+img.bell {
+    animation: 4s ease-in-out 1s normal none infinite running ring;
+    transform-origin: 50% 4px 0;
+}
+
+.alias-about-us .healthy-services{
+    padding: 40px;
+}
+.alias-about-us .item-page.content {
+    padding-left: 0;
+}
+.pro_img.col-md-6 > img {
+    border: 5px solid #fff;
+    display: inline-block;
+    height: 150px;
+    margin: 5px;
+    width: 150px;
+}
+.alias-overview .col-md-6 > ul {
+    float: left;
+    width: 50%;
+}
+.navbar-collapse.collapse.main-menu {
+    z-index: 1;
+}
+.nav-child.unstyled.small {
+    background: none repeat scroll 0 0 #000;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.nav-child.unstyled.small:before, .nav-child.unstyled.small:after {
+    content: none;
+}
+.navigation .nav ul li {
+    background: none repeat scroll 0 0 #000;
+    margin-bottom: 2px;
+    padding: 5px 0;
+    width: 100%;
+}
+.nav-child li a {
+    padding: 7px 5px !important;
+}
+.nav-child.unstyled.small {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    padding-left: 2px;
+    text-align: center;
+    top: 55px;
+    width: 97.5%;
+}
+.navigation .nav-child li > a:hover, .navigation .nav-child li > a:focus, .navigation .nav-child:hover > a{
+    background: transparent;
+    background-image: none;
+    color: #CF8A1F !important; 
+}
+
+.map {
+    height: 264px !important;
+    width: 100% !important;
+    margin-top: -13px;
+}
+
+.number-apart {
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 26px;
+}
+
+.address-heading {
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 34px;
+}
+
+
+body #content .b2j_contact .controls .btn.btn-success {
+    background: none repeat scroll 0 0 #000;
+    float: right;
+    margin: -36px 0 0 !important;
+    padding: 8px 10px;
+}
+
+.controls > div {
+    margin: 25px 0 0 45px;
+}
+
+
+label {
+    font-family: "roboto_condensedregular";
+    font-size: 20px;
+}
+
+
+
+
+
+/*====Cart Page css start here===*/
+
+
+.vm-product-container {
+    margin: 50px 0 0;
+    width: 100%;
+}
+
+.vm-product-container .vm-product-media-container {
+    float: left;
+    text-align: left;
+    width: 10%;
+}
+
+.vm-product-details-container {
+    float: right;
+    width: 88%;
+    padding-left: 16px;
+    border-left: 1px solid #fff;
+}
+
+
+.product-price {
+    color: #fff;
+    float: left;
+    margin: 0 0 6px;
+    text-align: left;
+}
+
+.ratingbox {
+    display: inline-block;
+    height: 24px;
+    position: relative;
+    width: 120px;
+    margin-left: 25px;
+}
+
+.quantity-input.js-recalculate {
+    border: 1px solid #ddd;
+    color: #646464;
+    font-size: 19px;
+    height: 42px !important;
+    width: 100% !important;
+}
+
+span.quantity-box {
+    display: inline-block;
+    height: 4%;
+    vertical-align: middle;
+    width: 5%;
+}
+
+span.quantity-controls {
+    display: inline-block;
+    margin: 0 5px 0 6px;
+    vertical-align: middle;
+    width: 15px;
+}
+
+span.addtocart-button input.addtocart-button, span.addtocart-button input.notify-button {
+    background: none repeat scroll 0 0 #0077b3;
+    border: 1px solid #00669a;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0;
+    max-width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.customer-reviews, .ask-a-question-view .form-field {
+    margin: 30px 0 15px;
+}
+
+.customer-reviews h4 {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 0 0 20px;
+}
+
+.list-reviews .step {
+    color: #fff;
+}
+
+.addtocart-area {
+    margin: 0;
+}
+
+.span12 {
+    width: 100%;
+}
+
+a.details:hover, div.details:hover, a.product-details:hover {
+    color: #fff;
+}
+
+/*.span12 h1 {
+    border-bottom: 1px solid #fff;
+    padding: 0 0 22px;
+    text-align: left;
+    width: 100% !important;
+}*/
+
+.product-neighbours {
+    color: #777;
+    margin: 0 0 20px;
+}
+
+#fancybox-wrap {
+    width: 30% !important;
+}
+
+#fancybox-content h4 {
+    font-size: 14px;
+    padding: 7px 0 0;
+}
+
+.continue_link:hover
+{
+    color: #428bca;
+}
+
+.showcart:hover
+{
+  color: #428bca;  
+}
+
+.alert.alert-notice {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 0 7px #909090;
+    margin: 22px 0 0;
+}
+
+.alert-heading {
+    border-bottom: 1px solid #eee;
+    font-weight: 300 !important;
+    padding: 0 0 15px;
+}
+
+.alert.alert-notice p {
+    color: #646464;
+    margin-bottom: 0;
+    padding: 11px 0 3px;
+}
+
+.alert .close {
+    color: #000;
+    line-height: 18px;
+    position: relative;
+    right: 0;
+    top: -11px;
+}
+
+.cart-view {
+    margin: 30px 0 0;
+    width: 100%;
+}
+
+
+.width50 {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============Responsive css start here=============*/
+
+
+
+@media (min-width:992px) and (max-width:1199px)
+{
+    body .vension-nav a {
+    color: #fff !important;
+    font-size: 15px;
+    padding: 20px 12px 19px;
+}
+    
+  .service-circle {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.well.about_img_theme {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.service-circle > li {
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 107px;
+    display: inline-block;
+    height: 110px;
+    margin: 15px 3px 15px 0;
+    padding: 2px 2px 9px;
+    text-align: center;
+    width: 110px;
+}
+
+.service-circle a {
+    font-size: 16px;
+    padding: 28px 0;
+}
+
+.social-part {
+    padding: 0;
+    width: 48.667%;
+}
+
+.col-md-7.telephone-part {
+    padding: 0 15px 0 0;
+    width: 51.333%;
+}
+  
+  .social-icon li {
+    display: inline-block;
+    padding: 0 2px;
+}
+
+.telephone-number{
+    font-size: 12px;
+}
+  
+ .carousel .item {
+    background-color: #feedf2;
+    height: auto !important;
+} 
+  
+.carousel-inner {
+    height: 331px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.span12 {
+    width: 100%;
+}
+
+.cut-heading li a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.cut-heading li {
+    height: 18px;
+    padding: 0 8px;
+}
+
+.page-header h2 {
+    color: #000;
+    padding-left: 6px;
+    text-align: left;
+}
+
+#content .componentheading, h3.page-header {
+    color: #000;
+    font-size: 30px;
+    text-align: left !important;
+}
+
+.about_img_theme .page-header {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+
+
+
+
+    
+    
+}
+
+
+
+@media (min-width:768px) and (max-width:991px)
+{
+    body .vension-nav a {
+    color: #fff !important;
+    font-size: 12px;
+    padding: 10px 9px;
+}
+
+.social-icon li {
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 0 2px;
+    vertical-align: super;
+}
+
+.footer {
+    float: left;
+    padding: 0 0 30px;
+    width: 100%;
+}
+
+.vension-nav li {
+    display: inline-block;
+    padding: 0;
+}
+
+.col-md-7.telephone-part {
+    padding: 0 15px 0 0;
+    width: 100%;
+}
+
+.social-part {
+    padding: 0;
+    width: 100%;
+}
+
+.vension-nav {
+    background: none repeat scroll 0 0 #cf8a1f;
+    list-style-type: none;
+    margin: 35px 0 0;
+    width: 100%;
+}
+  .social-icon {
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.telephone-number{
+    text-align: center;
+    width: 100%;
+}
+    
+.nav.menu.nav-pills.vension-nav.fadeInUp.animated {
+    padding-left: 15px;
+}
+
+.nav-pills > li + li {
+    margin-left: 0;
+}
+
+.carousel .item {
+    background-color: #feedf2;
+    height: auto !important;
+}
+
+.carousel-inner {
+    height: 265px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.span12 {
+    width: 100%;
+}
+
+.page-header h2 a {
+    color: #000;
+    font-size: 23px;
+}
+
+.service-circle > li {
+    height: 100px;
+    margin: 15px 9px 0px 4px;
+    padding: 2px 2px 9px;
+    width: 100px;
+}
+
+.service-circle a {
+    font-size: 12px;
+    padding: 29px 0;
+}
+
+.service-circle {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: auto;
+}
+
+.order-button {
+    float: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 25px 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+.alias-about-us .page-header > h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.custom.about_img_theme > h2 {
+    font-size: 23px;
+    text-align: center;
+}
+
+.custom.about_img_theme > h2 strong {
+    color: #fff;
+    display: inline-block;
+    font-size: 19px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.springbok > li {
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+.alias-overview .col-md-6 > ul {
+    float: left;
+    width: 21%;
+}
+
+.healthy-services p {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: justify;
+    width: 100%;
+}
+
+.spring-paraph p {
+    left: 0;
+    position: relative;
+}
+
+.blog_module .mod-articles-category-title {
+    color: #000;
+    font-size: 17px;
+}
+
+
+.read_more {
+    float: right;
+    margin-right: 30px;
+}
+
+body {
+    background: url("../img/main-background.jpg") no-repeat fixed 100% 100% / cover rgba(0, 0, 0, 0) !important;
+    width: 100% !important;
+}
+
+.nav-pills > li > a {
+    margin-bottom: 0;
+}
+
+.nav-child.unstyled.small {
+    top: 31px;
+    padding-left: 0;
+}
+
+.navigation .nav-child {
+    min-width: 121px;
+
+}
+
+main.span9 {
+    width: 100%;
+}
+
+.alias-about-us .span3 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.border-white {
+    border-bottom: 1px solid #fff;
+    border-right: medium none;
+    margin: 0 0 26px;
+}
+
+.well.about_img_theme {
+    float: left;
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.gallery-link li {
+    float: left;
+    margin-bottom: 1.5%;
+    margin-left: 20px;
+    margin-right: -1.5%;
+    width: 31.5%;
+}
+
+.healthy-services .span3 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.well {
+    border-radius: 0;
+    margin: 0 auto 43px;
+    padding: 0;
+    width: 90%;
+}
+
+div#b2jcontainer_c107 .controls {
+    width: 100%;
+}
+
+
+
+
+    
+    
+}
+
+
+
+
+
+
+@media (max-width:767px)
+{
+    .service-circle > li {
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 96px;
+    display: inline-block;
+    height: 114px;
+    margin: 15px 2px 14px;
+    padding: 2px 2px 9px;
+    text-align: center;
+    width: 114px;
+}
+
+.footer {
+    float: left;
+    padding: 0 0 30px;
+    width: 100%;
+}
+
+.col-md-7.telephone-part {
+    padding: 0 15px 0 0;
+    width:100%;
+}
+
+.social-icon li {
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 0 2px;
+    vertical-align: super;
+}
+
+.social-part {
+    padding: 0;
+    width: 100%;
+}
+
+.service-circle a {
+    font-size: 17px;
+    padding: 28px 0;
+}
+
+.alias-home .vension-health {
+    font-size: 26px !important;
+}
+    
+.service-circle {
+    float: left;
+    padding: 0;
+}  
+    
+   .telephone-number {
+    text-align: center;
+    width: 100%;
+} 
+
+body {
+    background: url("../img/main-background.jpg") no-repeat fixed 100% 100% / cover rgba(0, 0, 0, 0) !important;
+    width: 100% !important;
+    padding: 0px;
+}
+
+.carousel .item {
+    background-color: #feedf2;
+    height: auto !important;
+}
+
+.carousel-inner {
+    height: 182px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+.brand img {
+    width: 80% !important;
+}
+
+.venison-meat img {
+    width: 24% !important;
+}
+
+#header {
+    background: none repeat scroll 0 0 #000;
+    height: 122px;
+    position: relative;
+    width: 100%;
+}
+
+.navbar-toggle .icon-bar {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 1px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+
+.navbar-toggle {
+    background: none repeat scroll 0 0 #000;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 12px;
+    margin-right: 0;
+    margin-top: 13px;
+    padding: 9px 10px;
+    position: relative;
+    z-index: 99999;
+}
+
+.vension-nav {
+    background: none repeat scroll 0 0 #cf8a1f;
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-pills > li {
+    float: none !important;
+}
+
+.nav.menu.nav-pills.vension-nav.fadeInUp.animated {
+    padding-left: 0;
+}
+
+.vension-nav li {
+    display: block;
+    padding: 0;
+}
+
+body .vension-nav a {
+    color: #fff !important;
+    font-size: 15px;
+    padding: 11px 20px;
+}
+
+.nav-child.unstyled.small {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    padding-left: 0;
+    text-align: left;
+    top: 40px;
+    width: 100%;
+}
+
+.nav-pills > li + li {
+    margin-left: 0;
+}
+
+.nav-child li a {
+    padding:5px 0px 5px 21px !important;
+}
+
+.page-header h2 {
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.healthy-services {
+    padding: 0 40px;
+}
+
+.order-button {
+    float: left;
+    padding: 15px 0 10px;
+    text-align: center !important;
+}
+
+.service-circle > li {
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 96px;
+    display: inline-block;
+    height: 114px;
+    margin: 15px 5px -4px;
+    padding: 2px 2px 9px;
+    text-align: center;
+    width: 114px;
+}
+
+.social-icon {
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.alias-about-us .page-header > h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.about_img_theme .page-header {
+    font-size: 21px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.pro_img {
+    display: inline-block;
+    margin: 30px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.tips_thumb {
+    margin-top: 0;
+    text-align: center;
+}
+
+.tips_thumb .col-sm-4 {
+    margin-right: 4%;
+    width: 100%;
+}
+
+.healthy-services {
+    margin-top: 0;
+    padding: 0 20px;
+}
+
+.page-header h1 {
+    padding: 25px 0 0 14px;
+}
+
+.pull-left.item-image {
+    float: left;
+    width: 100%;
+}
+
+.healthy-services .span3 {
+    width: 100%;
+}
+
+main.span9 {
+    width: 100%;
+}
+
+.well {
+    border-radius: 0;
+    margin: 0 auto 43px;
+    padding: 0;
+    width: 100%;
+}
+.border-white {
+    border-bottom: 1px solid #fff;
+    margin: 0 0 34px;
+    border-right: none;
+}
+
+.gallery-link li {
+    float: left;
+    margin-bottom: 3.5%;
+    margin-right: 1.5%;
+    width: 31.5%;
+}
+
+.well.about_img_theme {
+    float: left;
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.item-page > div {
+    margin: 0 0 40px;
+    width: 100%;
+}
+
+#content .b2jcontainer.b2j_contact {
+    padding: 0;
+}
+
+.cut-heading li {
+    border-right: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    height: 15px;
+    line-height: 11px;
+    margin: 0 0 8px;
+    padding: 0 16px;
+}
+
+.main-spring {
+    left: -35px;
+    position: relative;
+    width: 100%;
+}
+
+.spring-paraph p {
+    left: -12px;
+    position: relative;
+}
+
+
+.spring-paraph {
+    margin: 18px 0 0;
+    width: 100%;
+}
+
+.table-part {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.price-list td {
+    font-size: 10px;
+}
+
+.healthy-services p {
+    text-align: justify;
+}
+
+div#b2jcontainer_c107 .controls {
+    width: 100%;
+}
+
+
+}
+
+
+
+
+
+@media (max-width:480px)
+{
+   
+	.brand img {
+    width: 50% !important;
+	}
+
+	#header {
+    background: none repeat scroll 0 0 #000;
+    height: 82px;
+    position: relative;
+    width: 100%;
+	}
+
+.page-header h2 {
+    font-size: 21px;
+    margin: 16px 0 11px;
+}
+
+.desc {
+    padding: 10px 0;
+}
+
+.pro_img.col-md-6 img {
+    border: 5px solid #fff;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.cut-heading li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.browse-view .page-header h2 {
+    padding: 20px 0 0;
+}
+
+.order-button {
+    float: left;
+    padding: 15px 0 10px;
+    text-align: center !important;
+}
+
+.venison-meat {
+    padding: 13px 0 0;
+    text-align: right;
+    width: 100%;
+}
+
+.page-header h1 {
+    padding: 25px 0 0 0px;
+}
+
+.item-page > div {
+    margin: 0 0 5px;
+}
+
+
+.border-white {
+    border-bottom: 1px solid #fff;
+    border-right: medium none;
+    margin: 0 0 13px;
+}
+
+
+.item-page div {
+    text-align: justify;
+    width: 100%;
+}
+
+.view-article .page-header h2 {
+    color: #000;
+    margin: 20px 104px 0 0;
+    padding: 0 !important;
+    text-align: center;
+    width: 100%;
+}
+
+.service-circle {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.telephone-number {
+    margin: 12px 0 0;
+}
+
+
+.alias-about-us .healthy-services {
+    padding: 20px;
+}
+
+.blog .items-leading.clearfix, .healthy-services .item-page {
+    padding: 0;
+}
+
+.alias-about-us .page-header > h2 {
+    font-size: 23px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.content img {
+    float: left;
+    max-width: 100%;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-right: 15px;
+    text-align: center !important;
+}
+
+.alias-home .vension-paraph {
+    font-weight: normal !important;
+    letter-spacing: 0.1px;
+    text-align: center !important;
+}
+
+.gallery-link li {
+    float: left;
+    margin-bottom: 3.5%;
+    margin-right: 1.5%;
+    width: 100%;
+}
+
+.alias-overview .col-md-6 > ul {
+    float: left;
+    width: 100%;
+}
+
+.pro_img {
+    display: inline-block;
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.cut-heading li {
+    border-right: medium none !important;
+    color: #fff;
+    display: inline-block;
+    height: 15px;
+    line-height: 11px;
+    margin: 0 0 16px;
+    padding: 0;
+    width: 100%;
+}
+
+.main-spring h3 {
+    color: #383838;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 22px;
+    padding-top: 34px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.price-list {
+    table-layout: fixed;
+    width: 100% !important;
+}
+
+.pull-left.item-image > img {
+    width: 100% !important;
+}
+
+div#b2jcontainer_c107 .controls {
+    width: 100%;
+}
+
+.empt {
+    margin: 6px 0 20px -28px !important;
+    width: 203px !important;
+}
+
+
+.price-list td {
+    font-size: 12px;
+    line-height: 27px;
+    padding: 6px 0 21px;
+    font-weight: 300;
+}
+
+.rate-p {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 10px;
+    overflow: hidden;
+    padding: 0;
+    text-transform: none;
+}
+
+.service-circle > li {
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 96px;
+    display: inline-block;
+    height: 106px;
+    margin: 15px 5px -4px;
+    padding: 2px 2px 9px;
+    text-align: center;
+    width: 106px;
+}
+
+.service-circle a {
+    font-size: 15px;
+    padding: 28px 0;
+}
+
+.col-md-7.telephone-part {
+    padding: 0 15px 0 0;
+    width: 100%;
+}
+
+.social-part {
+    padding: 10px 0 0;
+    width: 100%;
+}
+
+.social-icon li {
+    display: inline-block;
+    margin: -12px 0 0;
+    padding: 0 2px;
+    vertical-align: super;
+}
+
+
+.footer {
+    float: left;
+    padding: 0 0 30px;
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.gallery-link {
+    list-style: outside none none;
+    padding: 15px 0 0;
+}
+
+.alias-how-to-prepare .page-header a
+{
+    padding: 0px;
+    font-size: 28px;
+}
+
+.blog_module .page-header {
+    font-family: "times_new_romanregular";
+    font-size: 33px !important;
+    padding: 0;
+} 
+
+.category-module.blog_module {
+    padding-left: 0;
+}
+
+.alias-news .pull-left.item-image {
+    margin-top: 0 !important;
+    width: 100%;
+}
+
+.alias-news .items-leading.clearfix {
+    border-right: medium none;
+}
+
+.controls > div {
+    margin: 0;
+}
+
+body #content .b2j_contact .controls .btn.btn-success {
+    background: none repeat scroll 0 0 #000;
+    float: right;
+    padding: 8px 10px;
+    margin:0px !important;
+}
+
+
+
+
+}
+
+
+
+/*Shopping cart start 6Dec (Akash Rawat)*/
+#system-message .alert-notice{
+    background: transparent;
+    box-shadow: none;
+    padding: 8px 15px;
+    background-color: #efe1b3;
+    border-left: 2px solid #dfb56c;
+    border-radius: 0px;
+}
+#system-message .alert-notice p{
+    padding: 0px;
+    color: #826430;
+}
+#system-message .alert-notice .alert-heading{
+    display: none;
+}
+#system-message .alert-notice .close {
+    color: #826430;
+    opacity: 1;
+    top: -2px;
+}
+.cntnt_shp_ui .vm-continue-shopping{
+    width: auto;
+    display: inline-block; 
+}
+.vm-continue-shopping .continue_link{
+    width: auto;display: inline-block;
+    background: none repeat scroll 0 0 #000;
+    padding: 8px 10px;
+    color: #fff;
+    font-size: 14px;
+}
+.vm-continue-shopping input{
+    height: auto;
+}
+.vm-cart-header h1{
+    color: #000;
+    padding-bottom: 10px;
+}
+.input_ui_theme .form-control{
+    height: 35px;
+    border: none;
+    padding: 0px 10px;
+    width: 340px;
+}
+.input_ui_theme .label_ipt{
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    font-family: "open_sansregular";
+}
+.always_save{
+    margin-bottom: 15px;
+}
+.always_save label{
+    font-size: 14px;
+    color: #000;
+     font-family: "open_sansregular";
+    margin-left: 5px;
+}
+.alrdy_acnt p
+{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    color: #6e2131;
+}
+.btn-custm{
+    padding: 6px 18px;
+    border: none;
+    background: #000;
+    color: #fff;
+}
+.auto_algn_frgt{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 5px;
+    vertical-align: top;
+    width: auto;
+}
+.cmn_hd_cart{
+    display: inline-block;
+    font-size: 20px !important;
+    color: #000;
+    font-family: "open_sansregular";
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    text-align: left !important; 
+    margin-bottom: 20px;
+    width: 100%;
+}
+.billto-shipto .btn-custm {
+    background: #000;
+    border: none;
+    border-radius: 0;
+    color: #fff ;
+    font-size: 14px;
+    padding: 6px 18px;
+}
+.billto-shipto .btn-custm:hover{
+    background: #000;
+}
+.cart_addrss_ui{
+    min-height: 160px;
+    margin-bottom: 30px;
+}
+div.billto-shipto{
+    border: none;
+}
+.cart_addrss_ui .output-shipto{
+    color: #000;
+}
+.cart_addrss_ui .output-shipto input{
+    margin-top: 0px;
+    margin-right: 4px;
+}
+body .cart_smry_tableui table{
+    border: none;
+}
+body div .cart_smry_tableui th{
+    padding: 8px 15px;
+    color: #fff;
+    background: #383838;
+}
+.cart_smry_tableui th span{
+    color: #fff;
+}
+.cart_smry_tableui td span{
+    color: #fff;
+}
+.repeat_cart_row td{
+    padding: 10px 15px !important;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+     border-bottom: 1px solid #fff;
+  
+}
+.repeat_cart_row:last-child td{
+     border-bottom: 1px solid #fff;
+}
+.cart_smry_tableui td input.quantity-input
+{
+    border: medium none;
+    height: 40px !important;
+    width: 50px !important;
+}
+.cpn_code_ipt .coupon{
+    width: 360px;
+    height: 38px;
+    border: none;
+    margin-bottom: 0px;
+    padding: 10px 15px;
+}
+.cart_smry_tableui .cpn_code_ipt input.details-button{
+     background: #000;
+    border: none;
+    border-radius: 0;
+    color: #fff ;
+    font-size: 14px;
+    padding: 7px 24px;
+}
+.cart_smry_tableui table h3{
+    color: #000;
+    font-size: 16px;
+}
+.cart_smry_tableui .vm-button-correct{
+    background: #000;
+    border: none;
+    border-radius: 0;
+    color: #fff ;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 7px 24px;
+}
+.vm-fieldset-customer-note .customer-note{
+    color: #000;
+}
+.vm-fieldset-customer-note .customer-note .inputbox{
+    height: 110px;
+    border: none;
+}
+.cntnt_shp_ui .vm-fieldset-customer-note{
+    display: inline-block;
+    width: 40%;
+    margin-right: 15px;
+}
+.cntnt_shp_ui .vm-fieldset-tos{
+    display: inline-block;
+    margin-top: 40px;
+    vertical-align: top;
+    width: 46%;
+}
+.cntnt_shp_ui .vm-fieldset-tos .cart.tos{
+    color: #000;
+    margin-bottom: 20px;
+}
+.cntnt_shp_ui .vm-fieldset-tos input.terms-of-service{
+    float: left;
+    margin-right: 5px;
+}
+.text_blk_td td{
+    color: #000;
+}
+.btn_chk_me_ot{
+    margin-top: 10px;
+}
+.btn_chk_me_ot button
+{
+    background: #000;
+    border: none;
+    border-radius: 0;
+    color: #fff ;
+    font-weight: normal;
+    font-size: 14px !important;
+    padding: 7px 24px;
+}
+.btn_chk_me_ot button:hover{
+    font-weight: normal;
+}
+.ttl_crt_prc{
+    font-size: 16px;
+    color: #000;
+}
+.form_rest_ui{
+    margin: 0 auto 43px;
+    padding: 30px 20px 20px;
+    max-width:600px;
+}
+.form_rest_ui input.validate-email, .form_rest_ui input.validate-username{
+    height: 38px;
+    width: 320px;
+    color: #000 !important;
+    border: none;
+}
+.form_rest_ui p{
+    margin-bottom: 40px;
+}
+.item-page .vension-health{
+    border: none;
+}
+.input_ui_theme{
+    margin-bottom: 0px;
+}
+div.billto-shipto{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+/*Shopping cart end 6Dec (Akash Rawat)*/
+
+/*shipping detail start 7Dec (Akash Rawat)*/
+.userfields_info{
+    font-weight: normal;
+    color: #000;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+.bill_ipt_lk{
+    width: 100% !important;
+    table-layout: fixed;
+}
+.bill_ipt_lk td{
+    padding: 0px;
+}
+.bill_ipt_lk td label{
+    font-size: 14px;
+    cursor: default;
+    color: #000;
+    font-family: open_sansregular;
+}
+.bill_ipt_lk td label i{
+    color: #ee0000;
+    width: auto;display: inline-block;
+}
+table.user-details.bill_ipt_lk td input, table.user-details.bill_ipt_lk td .chzn-single {
+    height: 32px;
+    border: none;
+    width: 310px;
+    margin-bottom: 8px;
+    background: #fff;
+    color: #000 !important;
+    line-height: 32px;
+}
+table.user-details.bill_ipt_lk td div.chzn-single {
+    width:100%;
+}
+.bill_ipt_lk td .chzn-container{
+    width: 310px !important;
+}
+.bill_ipt_lk td .chzn-drop{
+    width: 100%  !important;
+}
+.bill_ipt_lk td .chzn-drop input{
+    width: 100% !important;
+    color: #000;
+}
+.frm_ui_fr_shp .btn-custm {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    font-size: 12px !important;
+ }
+/*shipping detail end 7Dec (Akash Rawat)*/
+/*--------------*/
+/*Shipping address design start 9dec(Akash Rawat)*/
+.frm_ui_fr_shp button.btn-custm {
+    background:#000;
+    border: medium none;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 2px !important;
+    font-size: 11px !important;
+    padding: 6px 18px;
+}
+.frm_ui_fr_shp{
+    padding-bottom: 20px;
+}
+.frm_ui_fr_shp .control-buttons div{
+    font-size: 12px;
+    margin-right: 0px !important;
+}
+.frm_ui_fr_shp .chzn-container-single .chzn-single div b{
+    background-position: left 4px;
+}
+.frm_ui_fr_shp .userfields_info{
+    margin-top: 20px;
+}
+.frm_ui_fr_shp .control-buttons #reg_text{
+    color: #000;
+}
+#system-message-container .alert-error{
+    margin-top: 20px;
+    background: #efe1b3;
+}
+#system-message-container .alert-error p{
+    color: #dd0000;
+    font-size: 12px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    text-shadow: inherit;
+}
+.output-billto{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.output-billto span{
+    color: #000;
+    font-size: 12px;
+}
+/*Shipping address design end 9dec(Akash Rawat)*/
+.vm2-add_quantity_cart 
+{
+    background: url("../img/refresh.png") no-repeat  !important;
+    margin-left: 8px;
+}
+.vm2-remove_from_cart
+{
+    background: url("../img/delete.png") no-repeat  !important;
+}
+
+
+.alert.alert-message{
+    margin-top: 20px;
+    background: #efe1b3;
+}
+#system-message .alert.alert-message p
+{
+    color: #826430;
+}
+
+.address-heading{
+    text-transform: lowercase;
+    display: inline-block;
+
+}
+.address-heading:first-letter{
+    text-transform: uppercase;
+}
+ .componentheading{
+    text-transform: capitalize;
+}
+#aside .well .page-header{
+    text-transform: capitalize;
+}
+.relative_enqre{
+    position: relative;
+}
+.enqr_now_btn {
+    background: none repeat scroll 0 0 #6e210b;
+    border-radius: 50%;
+    padding: 38px 0;
+    position: absolute;
+    right: -60px;
+    text-align: center;
+    top: -10px;
+    width: 130px;
+    z-index: 1;
+}
+.enqr_now_btn a {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+}
+.category-module.blog_module li .read_more{
+    display: inline-block;
+    float: left;
+    width: auto;
+}
+.cntnt_shp_ui .vm-cart-header h1{
+    text-align: left;
+    border-bottom: 1px solid #fff;
+
+}
+
+.alias-how-to-prepare .customWINNING.RECIPES{
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.pagination ul{
+    padding-left: 0px;
+}
+.alias-news .pagination{
+    margin-left: 15px;
+}
+ #content .bfrm-cntct .b2j-contact-group-class .control-group .controls input, 
+ #content .bfrm-cntct .b2j-contact-group-class .control-group .controls textarea{
+    width: 100% !important;
+}
+.browse-view .table-part .price-list{
+    table-layout: fixed;
+
+}
+.task-editaddresscart #content h1{
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.item-page.opo .page-header h1{
+    padding-left: 0px;
+}
+.view-article .item-page.opo .page-header h2{
+    text-align: left;
+}
+.heading-alternative .dscrptn_pg_theme h1{
+color: #000;
+text-align: left;
+}
+
+.main-menu.collapse.in {
+    height: auto !important;
+}
+
+
+
+.item-page.how_to_prepare{
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+}
+.item-page.how_to_prepare .pull-left.item-image{
+    width: 33.3333%;
+    float: left;
+    margin-right: 0px;
+    padding-right: 30px;
+}
+.item-page.how_to_prepare .pull-left.item-image img{
+    width: auto;
+    max-width: 100%;
+}
+.item-page.how_to_prepare .cmpre_prdct_dtp
+{
+    width: 66.6667%;
+    float: left;
+    padding-bottom: 40px;
+}
+.cmpre_prdct_dtp .page-header h2{
+    text-align: left;
+    margin-right: 0px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.cmpre_prdct_dtp .page-header h2 a{
+    color: #000;
+    font-size: 26px;
+    font-family: "open_sansregular";
+}
+.show_sb_nav{
+    display: block;
+}
+
+div#fancybox-outer{
+    background: transparent;
+}
+#fancybox-content{
+    background: #fff;
+}
