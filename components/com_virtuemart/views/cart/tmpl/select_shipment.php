@@ -32,7 +32,7 @@ defined('_JEXEC') or die('Restricted access');
 			$buttonclass = 'default';
 		}
 		?>
-<form method="post" id="userForm" name="chooseShipmentRate" action="<?php echo JRoute::_('index.php'); ?>" class="form-validate">
+<form method="post" id="userForm" name="chooseShipmentRate" action="<?php echo JRoute::_('index.php'); ?>" class="form-validate shp_h_sz">
 	<?php
 	} else {
 		$headerLevel = 3;
@@ -43,15 +43,8 @@ defined('_JEXEC') or die('Restricted access');
 
 	?>
 
-	<div class="buttonBar-right">
 
-	        <button  name="updatecart" class="<?php echo $buttonclass ?>" type="submit" ><?php echo vmText::_('COM_VIRTUEMART_SAVE'); ?></button>  &nbsp;
-		<?php   if ($this->layoutName!='default') { ?>
-		<button class="<?php echo $buttonclass ?>" type="reset" onClick="window.location.href='<?php echo JRoute::_('index.php?option=com_virtuemart&view=cart&task=cancel'); ?>'" ><?php echo vmText::_('COM_VIRTUEMART_CANCEL'); ?></button>
-		<?php  } ?>
-	</div>
-
-<?php
+	<?php
     if ($this->found_shipment_method ) {
 
 	   echo "<fieldset>\n";
@@ -70,7 +63,17 @@ defined('_JEXEC') or die('Restricted access');
 
 
 if ($this->layoutName!='default') {
-?> <input type="hidden" name="option" value="com_virtuemart" />
+?> 
+
+	<div class="buttonBar-right alg_mt_end">
+
+	        <button  name="updatecart" class="<?php echo $buttonclass ?>" type="submit" ><?php echo vmText::_('COM_VIRTUEMART_SAVE'); ?></button>  &nbsp;
+		<?php   if ($this->layoutName!='default') { ?>
+		<button class="<?php echo $buttonclass ?>" type="reset" onClick="window.location.href='<?php echo JRoute::_('index.php?option=com_virtuemart&view=cart&task=cancel'); ?>'" ><?php echo vmText::_('COM_VIRTUEMART_CANCEL'); ?></button>
+		<?php  } ?>
+	</div>
+
+<input type="hidden" name="option" value="com_virtuemart" />
     <input type="hidden" name="view" value="cart" />
     <input type="hidden" name="task" value="updatecart" />
     <input type="hidden" name="controller" value="cart" />

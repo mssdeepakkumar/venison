@@ -400,6 +400,10 @@ p {
 }
 
 @media (min-width: 768px) {
+  .venison-logo .brand {
+     margin-left: -50px;
+    max-width: 230px;
+  }
   .lead {
     font-size: 21px;
   }
@@ -4537,6 +4541,35 @@ ul.form_row{
     }
 }
 @media (max-width: 767px) {
+  body div .cart_smry_tableui .cart-summary th{
+    font-weight: normal;
+    padding: 8px 10px;
+  }
+  div.items-leading p .read_more {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+  body.alias-news .healthy-services .item-page.opo .pull-left.item-image{
+    margin-bottom: 0px;
+  }
+  div.item-page > div{
+    margin-bottom: 0px;
+  }
+  div.pull-left.item-image{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px !important;
+  }
+  div.pull-left.item-image img{
+    max-width: 100%;
+    width: auto !important;
+    margin-bottom: 30px;    
+  }
+  div .healthy-services {
+    padding: 40px 40px 20px !important;
+}
   div.spring-paraph p{
     left: -12px;
     margin-right: -12px;
@@ -6763,7 +6796,9 @@ td.visible-xs {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+div.venison-logo .brand{
+  margin-left: -10px;
+}
   body.alias-how-to-prepare .page-header a{
     padding-left: 174px;
   }
@@ -6842,6 +6877,16 @@ td.visible-sm {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  div.venison-logo .brand {
+    max-width: 180px;
+    margin-left: -10px;
+}
+.venison-meat img{
+  max-width: 180px;
+}
+body #header{
+  height: 160px;
+}
   .visible-sm {
     display: block !important;
   }
@@ -7057,6 +7102,9 @@ td.hidden-xs {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  div.custom.about_img_theme > h2{
+    font-size: 26px;
+  }
   .hidden-xs.hidden-md {
     display: none !important;
   }
@@ -7164,9 +7212,19 @@ td.hidden-md {
 }
 
 @media (max-width: 767px) {
+  div.cmpre_prdct_dtp .page-header h2{
+    line-height: 36px;
+  }
+  div.about_img_theme .page-header{
+    font-size: 30px;
+  }
+  body.alias-how-to-prepare .pull-left.item-image{
+    margin-top: 0px;
+  }
+
   body.alias-how-to-prepare .page-header a{
     padding-left: 0px;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
     display: inline-block;
     width: 100%;
   }
@@ -7249,6 +7307,24 @@ td.hidden-lg {
 }
 
 @media (max-width: 767px) {
+  div.vm-product-details-container{
+    padding-left: 0px;
+    margin-top: 30px;
+    border-left: none;
+  }
+ body.alias-cut-price .browse-view .table-part{
+  overflow-y:hidden;
+  overflow-x:auto;  
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+ }
+ div.main-spring{
+  left: -55px;
+ }
+ body.alias-cut-price .browse-view .table-part table{
+  table-layout: inherit;
+ }
   .hidden-lg.hidden-xs {
     display: none !important;
   }
@@ -7347,6 +7423,51 @@ td.visible-print {
 
 }
 @media (max-width:480px){
+  body.alias-news .cmpre_prdct_dtp .page-header h2{
+    width: 100%;
+    display: inline-block;
+  }
+   body.alias-news .cmpre_prdct_dtp p{
+    width: 100%;
+    display: inline-block;
+  }
+ div.cut-heading > ul{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  ul.springbok{
+    margin-left: -15px;
+    margin-bottom: 20px;
+  }
+  p.empt{
+    width: 100%!important;
+    margin-left: -15px !important;
+  }
+  div.row.tips_thumb{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  div div .healthy-services
+  {
+    padding: 30px 20px 20px !important
+  }
+  .container > .row .col-md-12{
+    padding: 0px;
+  }
+  #header > .container > .row > .col-md-6{
+    padding: 0px;
+  }
+  html body #header {
+    height: 130px;
+    margin-bottom: 0;
+  }
+  html body #header .venison-meat{
+    padding-top: 15px;
+  }
+  div.venison-meat img {
+    max-width: 120px;
+    width: 100% !important;
+}
    div.pro_img.col-md-6{
     margin-left: 0px;
     margin-right: 0px;
@@ -7423,10 +7544,22 @@ body #content .b2j_contact .bfrm-cntct .controls .btn.btn-success{
 }
 }
 @media (max-width: 629px){
+  body.alias-news .pull-left.item-image{
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 0px !important;
+    text-align: left;
+  }
+ body.alias-news .cmpre_prdct_dtp .page-header.das h2{
+    width: 100%;
+    display: inline-block;
+  }
   .pro_img.col-md-6{
     margin-top: 30px;
   }
-  
+  div.items-leading > div{
+    width: 100%;
+  }
   body.alias-overview div.col-md-6 > ul{
     width: 100%;
     margin-bottom: 0px;
@@ -7448,4 +7581,68 @@ body #content .b2j_contact .bfrm-cntct .controls .btn.btn-success{
     width: 46%;
     height: auto;
   }
+}
+@media (min-width:481px) and (max-width:767px){
+  .venison-logo .brand {
+    max-width: 170px;
+  }
+  div.venison-meat img {
+    max-width: 128px;
+    width: 100% !important;
+  }
+  html body #header{
+    height: 122px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 991px){
+  body.alias-news .cmpre_prdct_dtp{
+    border-right: none;
+    min-height: inherit;
+    padding-right: 0px;
+  }
+  body .alias-contact-us div#b2jcontainer_c107.b2jcontainer{
+    padding-right: 0px;
+  }
+  .alias-contact-us #aside .well{
+    width: 100%;
+  }
+  .alias-contact-us .healthy-services #aside {
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+  .alias-contact-us #content .b2jcontainer.b2j_contact{
+    padding-bottom: 0px;
+  }
+  .healthy-services div#aside{
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+  body.alias-news .well.blog_module{
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .alias-news .category-module.blog_module{
+    margin-top: -15px;
+  }
+  div.pro_img.col-md-6{
+    margin-top: 10px;
+  }
+}
+
+
+@media (max-width:1199px){
+  .control-buttons #reg_text{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .frm_ui_fr_shp .auto_frm_sty{
+    text-align: left !important;
+  }
+}
+#fancybox-content{
+  width: 100% !important;
+}
+.alert.alert-notice p{
+  margin-top: 0px;
 }

@@ -59,7 +59,7 @@ $this->vmValidator();
 	</h2>
 
 	<!--<form method="post" id="userForm" name="userForm" action="<?php echo JRoute::_ ('index.php'); ?>" class="form-validate">-->
-	<div class="control-buttons">
+	<div class="control-buttons auto_frm_sty">
 		<?php
 
 

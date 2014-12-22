@@ -22,19 +22,19 @@ body .nav-pills > li.active > a, body .nav-pills > li.active > a:hover, body .na
 #header{
     width: 100%;
     background: #000;
-    height: 180px;
+    height: 190px;
     position: relative;  margin-bottom: 16px;
 }
 
 .venison-logo{
     width: 100%;
     position: absolute;
-     padding: 15px 0 0;
+     padding: 8px 0 0;
 }
 
 
 .venison-meat {
-    padding: 25px 0 0;
+    padding: 12px 0 0;
     text-align: right;
     width: 100%;
 }
@@ -62,6 +62,12 @@ body .nav-pills > li.active > a, body .nav-pills > li.active > a:hover, body .na
     width: 30.333%;
 }
 
+.fa.fa-angle-right {
+    font-size: 28px;
+    padding: 0 0 0 5px;
+    vertical-align: sub;
+}
+
 .alias-news .page-header h2 a {
     color: #000;
     font-size: 26px;
@@ -83,12 +89,14 @@ body .nav-pills > li.active > a, body .nav-pills > li.active > a:hover, body .na
 
 .alias-news .items-leading.clearfix {
     border-right: 1px solid #fff;
+    padding-right: 15px;
 }
 
 body .vension-nav a {
     color: #fff !important;
     font-size: 16px;
     padding: 20px 24px 19px;
+    text-transform: uppercase;
 }
 
 body .vension-nav a:hover {
@@ -177,7 +185,7 @@ body .vension-nav a:hover {
 .healthy-services {
     background: none repeat scroll 0 0 #b5a58e;
     display: inline-block;
-    margin: -10px 0 0;
+    margin: 0px
     padding: 13px 40px;
     width: 100%;
 }
@@ -289,8 +297,8 @@ body .vension-nav a:hover {
 
 .order-button {
     float: left;
-    margin-bottom: 10px;
-    margin-top: 11px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     text-align: center;
     width: 100%;
 }
@@ -306,7 +314,7 @@ body .vension-nav a:hover {
 }
 
 .opo h1 {
-    padding: 38px 0 0 15px;
+    /*padding: 38px 0 0 15px;*/
     font-family: 'times_new_romanregular';
 }
 
@@ -315,7 +323,6 @@ body .vension-nav a:hover {
     border: 2px solid #6e210a;
     color: #fff;
     font-size: 16px;
-    font-weight: bold;
     padding:11px 20px;
     text-align: center;
      font-family: 'open_sansregular';
@@ -331,13 +338,13 @@ body .vension-nav a:hover {
 
 .footer {
   
-    padding: 30px 0;
+    padding: 15px 0 30px;
     text-align: right;
 }
 
 .telephone-number {
     color: #fff;
-    padding-top: 5px;
+    padding-top: 22px;
     font-size: 14px;
     line-height: 24px;
     text-align: right;
@@ -361,6 +368,7 @@ body .vension-nav a:hover {
 .social-icon {
     margin-top: 0px;
     text-align: right;
+    margin-left: 5px;
     width: 100%;
 }
 
@@ -374,7 +382,14 @@ body .vension-nav a:hover {
     display: inline-block;
     padding: 0 2px;
     margin:0px;
-    vertical-align:middle;
+    vertical-align:bottom;
+}
+.social-icon li.footer-logo{
+    max-width: 80px;
+}
+.social-icon li.footer-logo img{
+    width: 100%;
+    max-width: 100%;
 }
 
 .social-part {
@@ -435,13 +450,13 @@ body .vension-nav a:hover {
 }
 
 .springbok > li {
-    background: url("../img/bullet.png") no-repeat scroll 5px 3px rgba(0, 0, 0, 0);
+    background: url("../img/bullet.png") no-repeat scroll 0px 8px ;
     color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 18px;
     list-style-type: none;
     padding: 3px 0;
-    text-indent: 27px;
+    text-indent: 24px;
+    background-size: 12px;
 }
 
 
@@ -488,15 +503,16 @@ body .vension-nav a:hover {
 .alias-overview .page-header a {
     color: #000;
     font-family: "times_new_romanregular";
-    font-size: 34px;
+    font-size: 36px;
     font-weight: normal;
     margin-bottom: 25px;
     margin-top: 0;
+    cursor: text;
 }
 
 .alias-overview .page-header a:hover{
     color: #000;
-    text-decoration: underline !important;
+    text-decoration: none !important;
 }
 
 
@@ -518,16 +534,17 @@ body .vension-nav a:hover {
 .alias-how-to-prepare .page-header a {
     color: #000;
     font-family: "times_new_romanregular";
-    font-size: 34px;
+    font-size: 36px;
     font-weight: normal;
-    margin-bottom: 25px;
+   /* margin-bottom: 25px;*/
     margin-top: 0;
+    cursor: text;
     padding: 0px !important  ;
 }
 
 .alias-how-to-prepare .page-header a:hover{
     color: #000;
-    text-decoration: underline !important;
+    text-decoration: none !important;
 }
 
 
@@ -554,8 +571,10 @@ body .vension-nav a:hover {
     font-size: 14px;
     font-weight: normal;
     line-height: 20px;
-    margin: 7px 0 0;
-    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+ /*   margin: 7px 0 0;*/
+    padding: 0 !important;
     text-align: left;
 }
 
@@ -578,15 +597,15 @@ body .vension-nav a:hover {
 
 .cut-heading > ul {
     list-style-type: none;
-    margin: -20px 6px 10px -15px;
+    margin: -20px 6px 10px -20px;
     padding: 9px 0 0;
 }
-
 .browse-view .page-header h2 {
     color: #000;
     font-family: "times_new_romanregular";
-    padding: 20px 0 0 13px;
+    padding: 10px 0 0 13px;
     text-align: left;
+    font-size: 36px;
     text-transform: uppercase;
 }
 
@@ -596,7 +615,7 @@ body .vension-nav a:hover {
     display: inline-block;
     height: 18px;
     line-height: 16px;
-    padding: 0 16px;
+    padding: 0 7px;
 }
 
 .cut-heading li:last-child{
@@ -605,7 +624,7 @@ body .vension-nav a:hover {
 
 .cut-heading li a {
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: normal;
 }
 
@@ -621,7 +640,7 @@ body .vension-nav a:hover {
 
 
 .blog_module .page-header {
-    padding: 44px 0 0 26px;
+    padding-left:10px;
     font-family: 'times_new_romanregular';
     font-size: 40px !important;
 }
@@ -640,7 +659,7 @@ body .vension-nav a:hover {
     box-shadow: 5px 0 8px #646464;
     height: 92px;
     position: relative;
-    left: -55px;
+    left: -65px;
 }
 
 .main-spring h3 {
@@ -659,7 +678,7 @@ body .vension-nav a:hover {
 
 
 .spring-paraph p {
-    left: -64px;
+    left: -74px;
     width: auto;
     top: 2px;
     margin-right: -64px;
@@ -682,7 +701,7 @@ body .vension-nav a:hover {
 .price-list a
 {
 color: #6e2131;
-
+font-weight: bold;
 }
 
 
@@ -691,6 +710,7 @@ color: #6e2131;
     color: #fff;
     font-size: 18px;
     font-weight: normal;
+    text-transform: uppercase;
     padding: 7px 0 8px 16px;
 }
 
@@ -703,6 +723,7 @@ color: #6e2131;
     padding: 3px 0 11px;
     text-align: center;
     text-transform: uppercase;
+    border-top: none;
 }
 
 .rate-p {
@@ -739,11 +760,11 @@ color: #6e2131;
 .well.blog_module {
     padding: 0;
 }
-.blog .items-leading.clearfix,
+/*.blog .items-leading.clearfix,
 .healthy-services .item-page {    
     padding:0px 15px;
 }
-
+*/
 .pull-left.item-image {
     width: 19.333%;
 }
@@ -768,7 +789,7 @@ main.span9 {
     padding: 15px 0;
 }
 .category-module.blog_module {
-    padding-left: 30px;
+    padding-left: 10px;
 }
 .page-header h2 a {
     color: #000;
@@ -792,7 +813,6 @@ main.span9 {
 .blog_module .mod-articles-category-title,
 .healthy-services h4  {
     color: #000;
-    font-weight: bold;
 }
 .read_more {
     float: none;
@@ -819,6 +839,7 @@ main.span9 {
 .service-circle {
     float: left;
     margin: 0 auto;
+    margin-top: -15px;
     padding: 0 30px;
     text-align: center;
     width: auto;
@@ -853,7 +874,7 @@ main.span9 {
     padding-top: 40px;
 }
 .footer-logo img {
-    max-width: 85px;
+    max-width: 110px;
 }
 /*--about us--*/
 .gallery-link {
@@ -868,7 +889,7 @@ main.span9 {
 
 .gallery-link li {
     float: left;
-    margin-bottom: 1.5%;
+    margin-bottom: 5px;
     margin-right: 1.5%;
     width: 31.5%;
 }
@@ -920,12 +941,14 @@ main.span9 {
     color: #31171a;
     font-size: 30px;
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .custom.about_img_theme > h2 strong {
     color: #fff;
     display: inline-block;
-    margin: 5px 0;
+    margin: 7px 0;
     width: 100%;
     text-align: right;
 }
@@ -992,7 +1015,7 @@ img.bell {
     border: 5px solid #fff;
     display: inline-block;
     height: 150px;
-    margin: 5px;
+    margin: 5px 3px;
     width: 150px;
 }
 .alias-overview .col-md-6 > ul {
@@ -1127,7 +1150,7 @@ span.quantity-box {
     display: inline-block;
     height: 4%;
     vertical-align: middle;
-    width: 5%;
+    width: 50px;
 }
 
 span.quantity-controls {
@@ -1138,8 +1161,8 @@ span.quantity-controls {
 }
 
 span.addtocart-button input.addtocart-button, span.addtocart-button input.notify-button {
-    background: none repeat scroll 0 0 #0077b3;
-    border: 1px solid #00669a;
+    background: none repeat scroll 0 0 #000;
+    border: 0 none;
     border-radius: 0;
     color: #fff;
     cursor: pointer;
@@ -1236,7 +1259,7 @@ a.details:hover, div.details:hover, a.product-details:hover {
 }
 
 .cart-view {
-    margin: 30px 0 0;
+    margin: 0px;
     width: 100%;
 }
 
@@ -1291,16 +1314,16 @@ a.details:hover, div.details:hover, a.product-details:hover {
     background: none repeat scroll 0 0 #383838;
     border-radius: 107px;
     display: inline-block;
-    height: 110px;
-    margin: 15px 3px 15px 0;
+    height: 98px;
+    margin: 15px 7px;
     padding: 2px 2px 9px;
     text-align: center;
-    width: 110px;
+    width: 100px;
 }
 
 .service-circle a {
     font-size: 16px;
-    padding: 28px 0;
+    padding: 22px 0;
 }
 
 .social-part {
@@ -1492,18 +1515,18 @@ a.details:hover, div.details:hover, a.product-details:hover {
     margin-bottom: 20px;
     margin-top: 0;
 }
-.custom.about_img_theme > h2 {
+/*.custom.about_img_theme > h2 {
     font-size: 23px;
     text-align: center;
-}
+}*/
 
-.custom.about_img_theme > h2 strong {
+/*.custom.about_img_theme > h2 strong {
     color: #fff;
     display: inline-block;
     font-size: 19px;
     margin: 8px 0;
     width: 100%;
-}
+}*/
 
 .springbok > li {
     color: #fff;
@@ -1842,9 +1865,9 @@ body .vension-nav a {
     padding: 0 20px;
 }
 
-.page-header h1 {
+/*.page-header h1 {
     padding: 25px 0 0 14px;
-}
+}*/
 
 .pull-left.item-image {
     float: left;
@@ -1960,6 +1983,37 @@ div#b2jcontainer_c107 .controls {
     position: relative;
     width: 100%;
 	}
+
+.input_ui_theme {
+    margin-bottom: 0;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+
+.always_save label {
+    vertical-align: sub;
+}
+
+.cmn_hd_cart {
+    border-bottom: 1px solid #fff;
+    color: #000;
+    font-family: "open_sansregular";
+    font-size: 14px !important;
+    margin-bottom: 23px;
+    padding-bottom: 10px;
+    text-align: left !important;
+    width: 100%;
+}
+
+
+
+
+
+.input_ui_theme .form-control {
+    width: 100% !important;
+}
+
 
 .page-header h2 {
     font-size: 21px;
@@ -2234,10 +2288,131 @@ body #content .b2j_contact .controls .btn.btn-success {
     margin:0px !important;
 }
 
+.billto-shipto .btn-custm {
+    background: none repeat scroll 0 0 #333333;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 18px !important;
+    padding: 6px 18px;
+    position: absolute;
+    right: 0;
+    top: -10px !important;
+}
+
+
+
+body .cart_smry_tableui table {
+    border: medium none;
+    display: block;
+    height: 556px;
+    overflow-x: scroll;
+    width: 54% !important;
+}
+
+
+.cart_smry_tableui .cpn_code_ipt .coupon {
+    width: 100%;
+}
+
+.cart_smry_tableui .cpn_code_ipt input.details-button {
+    background: none repeat scroll 0 0 #333333;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 9px;
+    margin-left: -8px !important;
+    margin-top: 15px;
+    padding: 7px 24px;
+}
+
+.cntnt_shp_ui .vm-fieldset-customer-note{
+    width: 100% !important;
+    margin-top: 10px;
+}
+
+
+.cntnt_shp_ui .vm-fieldset-tos{
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+.billto-shipto .btn-custm {
+    font-size: 12px !important;
+    margin-top: 35px;
+    width: 100%;
+}
+
+.cart_addrss_ui .output-shipto {
+    color: #000;
+    font-size: 12px;
+    vertical-align: sub;
+}
+
+.cart_addrss_ui .output-shipto input {
+    margin-right: 4px;
+    margin-top: 0;
+    vertical-align: text-bottom;
+}
+
+.auto_algn_frgt {
+    display: block !important;
+    margin-left: 0 !important;
+    margin-top: 5px;
+    vertical-align: top;
+    width: auto;
+}
+
+.text_blk_td td {
+    color: #000;
+    text-align: left !important;
+}
+
+.main-image {
+    text-align: left;
+}
+
+.com_virtuemart .heading-alternative .productdetails h1{
+    font-size: 21px;
+    padding-bottom: 20px !important;
+}
+
+.addtocart-bar {
+    text-align: left !important;
+}
+
+.vm-product-container {
+    margin: 25px 0 0 !important;
+    width: 100%;
+}
+
+
+}
+
+
+
+
+@media (max-width:320px){
+
+body .cart_smry_tableui table {
+    border: medium none;
+    display: block;
+    height: 556px;
+    overflow-x: scroll;
+    width: 46% !important;
+}
+
+
+
 
 
 
 }
+
+
+
 
 
 
@@ -2268,7 +2443,7 @@ body #content .b2j_contact .controls .btn.btn-success {
 }
 .vm-continue-shopping .continue_link{
     width: auto;display: inline-block;
-    background: none repeat scroll 0 0 #000;
+    background: #333333;
     padding: 8px 10px;
     color: #fff;
     font-size: 14px;
@@ -2311,7 +2486,7 @@ body #content .b2j_contact .controls .btn.btn-success {
 .btn-custm{
     padding: 6px 18px;
     border: none;
-    background: #000;
+    background: #333333;
     color: #fff;
 }
 .auto_algn_frgt{
@@ -2323,7 +2498,7 @@ body #content .b2j_contact .controls .btn.btn-success {
 }
 .cmn_hd_cart{
     display: inline-block;
-    font-size: 20px !important;
+    font-size: 14px !important;
     color: #000;
     font-family: "open_sansregular";
     padding-bottom: 10px;
@@ -2333,19 +2508,21 @@ body #content .b2j_contact .controls .btn.btn-success {
     width: 100%;
 }
 .billto-shipto .btn-custm {
-    background: #000;
+    background: #333333;
     border: none;
     border-radius: 0;
     color: #fff ;
     font-size: 14px;
+    position: absolute;
+    right: 0px;
     padding: 6px 18px;
 }
 .billto-shipto .btn-custm:hover{
     background: #000;
 }
 .cart_addrss_ui{
-    min-height: 160px;
     margin-bottom: 30px;
+    position: relative;
 }
 div.billto-shipto{
     border: none;
@@ -2362,6 +2539,7 @@ body .cart_smry_tableui table{
 }
 body div .cart_smry_tableui th{
     padding: 8px 15px;
+    font-size: 12px;
     color: #fff;
     background: #383838;
 }
@@ -2395,7 +2573,7 @@ body div .cart_smry_tableui th{
     padding: 10px 15px;
 }
 .cart_smry_tableui .cpn_code_ipt input.details-button{
-     background: #000;
+    background: #333333;
     border: none;
     border-radius: 0;
     color: #fff ;
@@ -2407,7 +2585,7 @@ body div .cart_smry_tableui th{
     font-size: 16px;
 }
 .cart_smry_tableui .vm-button-correct{
-    background: #000;
+    background: #333333;
     border: none;
     border-radius: 0;
     color: #fff ;
@@ -2449,7 +2627,7 @@ body div .cart_smry_tableui th{
 }
 .btn_chk_me_ot button
 {
-    background: #000;
+    background: #333333;
     border: none;
     border-radius: 0;
     color: #fff ;
@@ -2546,12 +2724,13 @@ table.user-details.bill_ipt_lk td div.chzn-single {
 /*--------------*/
 /*Shipping address design start 9dec(Akash Rawat)*/
 .frm_ui_fr_shp button.btn-custm {
-    background:#000;
+    background:#333333;
     border: medium none;
     color: #fff;
     font-weight: normal;
-    margin-left: 2px !important;
+    margin-left: 1px !important;
     font-size: 11px !important;
+    margin-bottom: 5px;
     padding: 6px 18px;
 }
 .frm_ui_fr_shp{
@@ -2583,7 +2762,7 @@ table.user-details.bill_ipt_lk td div.chzn-single {
 }
 .output-billto{
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .output-billto span{
     color: #000;
@@ -2621,21 +2800,21 @@ table.user-details.bill_ipt_lk td div.chzn-single {
  .componentheading{
     text-transform: capitalize;
 }
-#aside .well .page-header{
-    text-transform: capitalize;
-}
+
 .relative_enqre{
     position: relative;
 }
 .enqr_now_btn {
-    background: none repeat scroll 0 0 #6e210b;
+    background: #6e210b;
     border-radius: 50%;
-    padding: 38px 0;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    padding: 33px 0;
     position: absolute;
     right: -60px;
     text-align: center;
-    top: -10px;
-    width: 130px;
+    top: -35px;
+    width: 120px;
     z-index: 1;
 }
 .enqr_now_btn a {
@@ -2659,7 +2838,7 @@ table.user-details.bill_ipt_lk td div.chzn-single {
     width: 100%;
     display: inline-block;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 
 }
 
@@ -2725,13 +2904,14 @@ text-align: left;
     text-align: left;
     margin-right: 0px;
     line-height: 20px;
+    font-size: 36px;
     margin-bottom: 10px;
 }
-.cmpre_prdct_dtp .page-header h2 a{
+/*.cmpre_prdct_dtp .page-header h2 a{
     color: #000;
     font-size: 26px;
     font-family: "open_sansregular";
-}
+}*/
 .show_sb_nav{
     display: block;
 }
@@ -2741,4 +2921,497 @@ div#fancybox-outer{
 }
 #fancybox-content{
     background: #fff;
+}
+.social_icon_m a{
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 44px;
+    padding: 9px;
+    text-align: center;
+    width: 46px;
+}
+.social_icon_m a .fa{
+    color: #35150d;
+    font-size: 28px;
+}
+
+
+/*changes 15dec 2014 start (Akash Rawat)*/
+.healthy-services{
+    padding: 45px 50px !important;
+    padding-bottom: 20px !important;
+}
+div .healthy-services .page-header h2 {
+    margin: 0 0 20px !important;
+}
+.healthy-services #aside{
+    padding-left: 5px;
+}
+.about_img_theme h3.page-header {
+    line-height: 38px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.desc img{
+    margin-top: 30px;
+}
+.pro_img.col-md-6{
+    margin-top: -52px;
+}
+.row.tips_thumb{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.alias-how-to-prepare .pull-left.item-image {
+    margin-top: 46px;
+}
+.alias-how-to-prepare .pull-left.item-image > img {
+    max-width: 90%;
+}
+.item-page.how_to_prepare .cmpre_prdct_dtp .page-header h2 a{
+    font-family: "open_sansregular";
+    font-size: 22px;
+    color: #32150c;
+
+}
+.heading-alternative .dscrptn_pg_theme h1{
+    font-size: 36px;
+    margin-top: 0px;
+    font-family:"times new roman";
+}
+.imgp_spce_top{
+    margin-top: 44px !important;
+}
+.imgp_spce_top img{
+    max-width: 90%;
+}
+.how_to_prepare .cmpre_prdct_dtp h4{
+    color: #32150c;
+}
+.alias-news .healthy-services .page-header h2{
+   margin-bottom: 10px !important;
+   margin-top: -4px !important;
+}
+.alias-news .healthy-services .page-header h2 a{
+   font-family: "open_sansregular";
+}
+.alias-news .healthy-services .pull-left.item-image{
+    margin-bottom: 30px;
+}
+.alias-news .healthy-services .item-page.opo .pull-left.item-image{
+    margin-bottom: 20px;
+}
+.alias-news .blog.opo .page-header h1{
+    font-size: 36px;
+}
+.alias-news .well.blog_module h3{
+     font-size: 36px;
+}
+.alias-news .cmpre_prdct_dtp{
+    padding-right: 15px;
+    border-right: 1px solid #ddd;
+    min-height: 620px;
+}
+.alias-news .healthy-services .item-page.opo .page-header h1{
+    font-size: 36px;
+}
+.category-module.blog_module > li:last-child{
+    border-bottom: none;
+}
+.alias-contact-us #content .componentheading, h3.page-header{
+    font-size: 36px;
+    font-family: "times new roman";
+    margin-top: 0px;
+}
+.alias-contact-us div#b2jcontainer_c107.b2jcontainer{
+    padding-left: 0px;
+}
+.alias-contact-us #b2jcontainer_c107 .b2jform-compact label.control-label, 
+.alias-contact-us #b2jcontainer_c107 .b2jform-extended label.control-label{
+    font-family: "open_sansregular";
+    font-size: 16px; 
+}
+.alias-contact-us #b2jcontainer_c107 .b2jform-compact label.control-label .required, 
+.alias-contact-us #b2jcontainer_c107 .b2jform-extended label.control-label .required{
+    margin-left: 5px;
+    color: #dd0000;
+}
+.alias-contact-us .b2j-contact-group-class .control-group .asterisk{
+    display: none !important;
+}
+.alias-contact-us #aside .well{
+    padding-top: 0px;
+}
+
+.alias-contact-us #aside .well .custom p {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.alias-contact-us #aside .well .custom .number-apart{
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+}
+.alias-contact-us #aside .well .custom .map{
+    margin-top: 0px;
+}
+.com_virtuemart .heading-alternative .productdetails h1{
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+.com_virtuemart .heading-alternative .productdetails{
+    display: inline-block;width: 100%;
+}
+#system-message .alert-notice{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.alias-cut-price .category_description p{
+    padding-top: 0px;
+}
+.alias-cut-price .browse-view .table-part{
+    padding: 0px;
+}
+.alias-cut-price .relative_enqre h2{
+    padding-left: 0px;
+}
+.alias-cut-price .browse-view h1{
+    text-align: left;
+}
+.alias-cut-price .task-editaddresscart #content h1{
+    margin-top: 0px;
+}
+.log_usr_out {
+    color: #000;
+    display: inline-block;
+    float: left;
+    top: -36px;
+    position: absolute;
+    text-align: right;
+    width: 84%;
+}
+.log_usr_out span{
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+.form_log_usr{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+.chopr_hd_mt{
+    font-size: 16px;
+    color: #000;
+}
+.shopr_ui_mn .chzn-container-single .chzn-single{
+    height: 34px;
+}
+
+.shopr_ui_mn .chzn-container-single .chzn-single span{
+    line-height: 34px;
+}
+.alias-cut-price.view-user .healthy-services h1,
+.alias-cut-price.view-user .healthy-services h2{
+    text-align: left;
+    color: #000;
+    margin-top: 0px;
+}
+.alias-cut-price.view-user .healthy-services h1{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+.alias-cut-price.view-user .healthy-services .userdata h2{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.cart-view{
+    display: inline-block;
+}
+.btn_ps_tr{
+    width: auto;
+    float: right;
+}
+.frm_ui_fr_shp legend{
+    border: none;
+    margin-bottom: 0px;
+}
+.frm_ui_fr_shp .userfields_info{
+    font-size: 18px;
+    margin-bottom: 0px;
+    border: none;
+}
+.view-user #ui-tabs .dyn-tabs{
+    overflow: inherit;
+    padding-left: 0px;
+}
+#adminForm a{
+    margin-right: 10px;
+}
+.dyn-tabs .user-details td input{
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    color: #000 !important;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 8px;
+    width: 310px;
+}
+.dyn-tabs .user-details .chzn-container-multi .chzn-choices .search-field input
+{   
+     background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    color: #000 !important;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.dyn-tabs .user-details td label
+{
+    font-family: "open_sansregular";
+    font-size:14px;
+    color: #000;
+}
+.dyn-tabs .user-details .chzn-container-multi{
+    width: 310px !important;
+    height: 32px;
+    border-radius: 4px;
+}
+.dyn-tabs table.user-details{
+    width: 100%;
+}
+.dyn-tabs table.user-details td.key{
+    width: 192px;
+    padding-left: 0px;
+}
+#adminForm #ui-tabs ul#tabs{
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+.dyn-tabs table.user-details .chzn-container-multi .chzn-choices{
+    border: none;
+    border-radius: 4px;
+}
+.view-user #ui-tabs ul#tabs li.current{
+    background: #333333;
+    color: #fff;
+}
+.view-user #ui-tabs ul#tabs li{
+    padding-bottom: 10px;
+}
+.view-user #ui-tabs{
+    margin-top: 15px;
+}
+label.invalid {
+    background-color: transparent !important;
+    font-weight: normal;
+}
+.buttonBar-right button{
+     background: none repeat scroll 0 0 #333333;
+    border: medium none;
+    color: #fff;
+    padding: 6px 18px;
+    font-weight: normal;
+    font-family: "open_sansregular";
+}
+.buttonBar-right button:hover{
+    font-weight: normal;
+}
+.alias-cut-price.view-user  #content > h2 {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+div.chzn-container .chzn-results{
+    max-height: 210px;
+}
+.alias-home .healthy-services {
+    background: none repeat scroll 0 0 #b5a58e;
+    display: inline-block;
+    margin: -10px 0 0;
+    padding: 13px 55px !important;
+    width: 100%;
+}
+.control-buttons #reg_text{
+    font-size: 11px;
+}
+
+.shp_hld_bt .userfields_info{
+    width: auto;
+    display: inline-block;
+    padding-bottom: 0px;
+}
+.shp_hld_bt {
+    border-bottom: 1px solid #fff;
+}
+.shp_hld_bt a{
+    width: auto;
+    float: right;
+    background: none repeat scroll 0 0 #333333;
+    border: medium none;
+    color: #fff;
+    font-size:14px;
+    margin-top: 15px;
+    padding: 6px 18px;
+}
+.alg_mt_end{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.view-login p {
+    color: #9f7b4a;
+    font-size: 12px;
+}
+
+
+.view-login .required{
+
+    color: #000 !important;
+    font-family: "open_sansregular";
+    font-size: 14px;
+    width: 100%;
+    text-align: left !important;
+    border: medium none;
+    height: 35px;
+    padding: 0 10px;
+    width: 340px;
+
+}
+
+
+
+.view-login .well{
+    background: none !important;
+    border: none;
+    box-shadow: none !important;
+    padding: 0px 0 20px !important;
+}
+
+.view-login .form-horizontal .controls {
+    margin-left: 160px;
+}
+
+
+.view-login .control-label{
+       text-align: left !important; 
+}
+
+
+.view-login .control-label label {
+    color: #000 !important;
+    font-family: "open_sansregular";
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+
+.view-login input[type="radio"], input[type="checkbox"] {
+    line-height: normal;
+    margin: 4px 0 0;
+    vertical-align: -moz-middle-with-baseline;
+}
+
+
+.view-login .btn.btn-primary{
+    background: none repeat scroll 0 0 #333333;
+    border: medium none;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 0px;
+
+}
+
+
+.view-login .nav-stacked{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+     margin-bottom: 20px;
+    margin-left: 158px;
+    margin-top: -60px !important;
+}
+
+.view-login .nav-stacked li{
+    display: inline-block;
+}
+
+
+.view-login .nav-stacked li a {
+    color: #000;
+    font-size: 14px;
+    padding: 0 11px 0 0;
+    margin-left: 0;
+    transition-duration: 0.2s, 1s;
+    transition-property: margin-left, color;
+    transition-timing-function: linear, ease-in;
+    border: none;
+}
+
+.view-login .nav-stacked li a:hover{
+    border: none;
+}
+
+
+.task-editaddresscart .log_usr_out {
+    color: #000;
+    display: inline-block;
+    float: left;
+    left: 155px;
+    position: absolute;
+    text-align: right;
+    top: -68px;
+    width: 84%;
+}
+
+.view-login .alert-heading {
+    border-bottom: 1px solid #fff;
+    font-weight: 300 !important;
+    padding: 0 0 15px;
+}
+
+
+
+
+.shp_h_sz{
+    min-height: 210px;
+}
+.shp_h_sz h1:nth-child(even){
+     font-size: 16px;
+    margin-top: 20px;
+}
+.vension-paraph{
+    text-align: center !important;
+}
+/*changes 15dec 2014 end (Akash Rawat)*/
+
+.cut_prc_hd_t{
+    background: none repeat scroll 0 0 #383838;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 7px 0 8px 16px;
+    text-transform: uppercase;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    /* Safari only override */
+    ::i-block-chrome,body {
+      background: url("../img/main-background.jpg") no-repeat fixed;
+      background-size: 100% 100%; 
+    }
+    ::i-block-chrome,.alias-news .healthy-services .cmpre_prdct_dtp .page-header {
+        display: inline-block;
+    }
+}
+.b2j-contact-group-class .controls input,
+.b2j-contact-group-class .controls textarea{
+    border: none;
 }

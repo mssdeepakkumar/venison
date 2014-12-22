@@ -238,8 +238,8 @@ else
 		<jdoc:include type="modules" name="debug" style="none" />
 	  <div class="social-icon" data-ride="animated" data-animation="fadeInUp" data-delay="300">
 	  <ul>
-	    <li><a title="facebook" rel='tooltip' data-placement='top' href="http://facebook.com/"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/img/facebook.png"></a></li>
-	    <li><a title="twitter" rel='tooltip' data-placement='top' href="http://twitter.com/"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/img/twitter.png"></a></li>
+	    <li class="social_icon_m"><a target="_blank" title="facebook" rel='tooltip' data-placement='top' href="http://facebook.com/"><i class="fa fa-facebook"></i><!-- <img src="<?php //echo $this->baseurl; ?>/templates/<?php //echo $this->template; ?>/img/facebook.png"> --></a></li>
+	    <li class="social_icon_m"><a target="_blank" title="twitter" rel='tooltip' data-placement='top' href="http://twitter.com/"><i class="fa fa-twitter"></i><!-- <img src="<?php //echo $this->baseurl; ?>/templates/<?php //echo $this->template; ?>/img/twitter.png"> --></a></li>
 	    <li class="footer-logo"><a title="footer-logo" rel='tooltip' data-placement='top' href="#header"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/img/logo.png"></a></li>
 	  </ul>
 	  </div>

@@ -21,9 +21,9 @@ defined('_JEXEC') or die('Restricted access');
 ?>
 
 
-<h3><?php echo vmText::_ ('COM_VIRTUEMART_CART_CHANGE_SHOPPER'); ?></h3>
+<h3 class="chopr_hd_mt"><?php echo vmText::_ ('COM_VIRTUEMART_CART_CHANGE_SHOPPER'); ?></h3>
 
-<form action="<?php echo JRoute::_ ('index.php'); ?>" method="post" class="inline">
+<form action="<?php echo JRoute::_ ('index.php'); ?>" method="post" class="inline shopr_ui_mn">
 	<table cellspacing="0" cellpadding="0" border="0">
 		<tr style="border:0px;">
 			<td  style="border:0px;">
@@ -42,7 +42,7 @@ defined('_JEXEC') or die('Restricted access');
 				?>
 			</td>
 			<td style="border:0px;">
-				<input type="submit" name="changeShopper" title="<?php echo vmText::_('COM_VIRTUEMART_SAVE'); ?>" value="<?php echo vmText::_('COM_VIRTUEMART_SAVE'); ?>" class="button"  style="margin-left: 10px;"/>
+				<input type="submit" name="changeShopper" title="<?php echo vmText::_('COM_VIRTUEMART_SAVE'); ?>" value="<?php echo vmText::_('COM_VIRTUEMART_SAVE'); ?>" class="button btn-custm"  style="margin-left: 10px;"/>
 				<?php if(isset($adminID) && $instance->id != $adminID) { ?>
 					<span style="margin-left: 20px;"><b><?php echo vmText::_('COM_VIRTUEMART_CART_ACTIVE_ADMIN') .' '.JFactory::getUser($adminID)->name; ?></b></span>
 				<?php } ?>

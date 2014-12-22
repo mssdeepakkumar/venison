@@ -1,4 +1,4 @@
-<fieldset class="vm-fieldset-pricelist cart_smry_tableui">
+<fieldset class="vm-fieldset-pricelist cart_smry_tableui dj">
 <table
 	class="cart-summary"
 	cellspacing="0"

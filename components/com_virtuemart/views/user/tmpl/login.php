@@ -165,9 +165,9 @@ JHtml::_ ( 'behavior.modal' );
 
 <?php  } else if ( $user->id ) { ?>
 
-	<form action="<?php echo JRoute::_('index.php'); ?>" method="post" name="login" id="form-login">
-        <?php echo vmText::sprintf( 'COM_VIRTUEMART_HINAME', $user->name ); ?>
-	<input type="submit" name="Submit" class="button" value="<?php echo vmText::_( 'COM_VIRTUEMART_BUTTON_LOGOUT'); ?>" />
+	<form action="<?php echo JRoute::_('index.php'); ?>" method="post" class="form_log_usr" name="login" id="form-login">
+     <div class="log_usr_out"> <span>  <?php echo vmText::sprintf( 'COM_VIRTUEMART_HINAME', $user->name ); ?></span>
+	<input type="submit" name="Submit" class="button btn-custm" value="<?php echo vmText::_( 'COM_VIRTUEMART_BUTTON_LOGOUT'); ?>" /></div>
         <input type="hidden" name="option" value="com_users" />
 
         <input type="hidden" name="task" value="user.logout" />

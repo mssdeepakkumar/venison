@@ -190,11 +190,10 @@ foreach ($rows as $key => $value){
   </div>
   </div>  
   <div class="row">
-  <div class="col-md-12 table-part">  
+  <div class="col-md-12 table-part"> 
+  <div class="cut_prc_hd_t"> Cuts & Price</div> 
   <table class="price-list">
-  <tr>
-    <th colspan="5">Cuts & Price</th>
-  </tr>
+  
   <tr> 
   <?php
   $query = 'SELECT `virtuemart_product_id` FROM `#__virtuemart_product_categories` WHERE `virtuemart_category_id` = '.$category_id;

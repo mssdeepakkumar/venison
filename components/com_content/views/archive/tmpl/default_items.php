@@ -17,7 +17,7 @@ $params = $this->params;
 	<?php foreach ($this->items as $i => $item) : ?>
 		<?php $info = $item->params->get('info_block_position', 0); ?>
 		<div class="row<?php echo $i % 2; ?>" itemscope itemtype="http://schema.org/Article">
-			<div class="page-header">
+			<div class="page-header dj">
 				<h2 itemprop="name">
 					<?php if ($params->get('link_titles')) : ?>
 						<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($item->slug, $item->catslug)); ?>" itemprop="url sd">
